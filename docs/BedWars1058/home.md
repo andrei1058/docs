@@ -16,4 +16,4 @@ sidebar_label: Home
 Welcome to the BedWars1058 wiki. Here you will find a complete set of documentation for the plugin, outlining how to install, setup, configure and effectively use BedWars1058 .
 
 You can download it from: 
-* [spigotmc.org](https://www.spigotmc.org/resources/50942/)
+* [spigotmc.org](https://www.spigotmc.org/resources/bedwars1058-opensource.97320/)
