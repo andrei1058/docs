@@ -5,7 +5,7 @@ sidebar_position: 1.1
 ---
 * Individual language per player. Each player can receive messages, holograms and GUIs in his chosen language.
 * You can have unlimited arena groups with custom names, custom generators, custom scoreboard layouts and custom shop and team upgrades.
-* You can create as may teams you want with [custom names per language](https://gitlab.com/andrei1058/BedWars1058/wikis/arena-configuration#custom-team-name) and colors.
+* You can create as may teams you want with [custom names per language](configuration/arena-configuration#custom-team-name) and colors.
 * The scoreboars are 100% configurable. You can add up tp 16 lines and you can use any placeholders you want.
 * Waiting lobby removal feature. It will remove the waiting lobby when the game starts.
 * Three ways to use the plugin: shared (multiple games on a server), bungee (one server one arena), multiarena (one server more arenas).

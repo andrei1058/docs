@@ -2,9 +2,7 @@ This page contains the documentation about the `config.yml` file located in `plu
 
 Make sure you're using the right material name when changing item materials in config.
 
-For 1.7 to 1.12.x materials list [click here](https://gitlab.com/andrei1058/BedWars1058/wikis/1.7-1.12-materials).
-
-For 1.13 and newer, [click here](https://gitlab.com/andrei1058/BedWars1058/wikis/1.13-newer-materials).
+For materials, sounds, and potions, check the [resources page](resrouces)
 
 ```yaml
 # There are 4 choices for this option:
