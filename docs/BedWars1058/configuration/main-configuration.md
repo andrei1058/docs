@@ -1,8 +1,13 @@
+---
+sidebar_label: Main Config
+title: Main Config
+sidebar_position: 3.2
+---
 This page contains the documentation about the `config.yml` file located in `plugins/BedWars1058`.
 
 Make sure you're using the right material name when changing item materials in config.
 
-For a list of materials, sounds, and potions, check the [resources page](resrouces)
+For a list of materials, sounds, and potions, check the [resources page](../resources)
 
 ```yaml
 # There are 4 choices for this option:

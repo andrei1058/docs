@@ -1,9 +1,13 @@
+---
+sidebar_label: Sounds Config
+title: Sounds Configuration
+sidebar_position: 3.8
+---
 If you want to change those configuration values make sure you choose the right bukkit sounds for your server version.
 
 **Invalid sounds or empty fields will be ignored.**
 
-* List of 1.8.x sounds: https://andrei1058.com/bukkit-1-8-x-sounds/
-* List of 1.13.x sounds: https://andrei1058.com/bukkit-1-13-x-sounds/
+[List of sounds](../resources)
 ```yaml
 game-end: ITEM_TRIDENT_THUNDER
 rejoin-denied: ENTITY_VILLAGER_NO

@@ -1,3 +1,8 @@
+---
+sidebar_label: Generators Config
+title: Generators Configuration
+sidebar_position: 3.4
+---
 ### Explanation
 ```yaml
 #Under the "Default" configuration section there is the configuration for all the arena groups

@@ -1,3 +1,8 @@
+---
+sidebar_label: Shop Config
+title: Shop Configuration
+sidebar_position: 3.5
+---
 If you want different prices per arena group you should use a server as a single arena (BUNGEE serverType).
 
 Make sure you're using the right material name when changing item materials in config.

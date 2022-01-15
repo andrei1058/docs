@@ -1,3 +1,8 @@
+---
+sidebar_label: Levels Config
+title: Levels Configuration
+sidebar_position: 3.7
+---
 ```yaml
 # Levels list
 # You can add more levels under 4. Just copy and paste level 4 and rename it to level 5.

@@ -1,8 +1,13 @@
-# Video tutorial
+---
+sidebar_label: Creating Arenas
+title: Creating Arenas
+sidebar_position: 2.2
+---
+## Video tutorial
 
 [![Video tutorial](https://img.youtube.com/vi/pPCa2Se-QSY/0.jpg)](https://www.youtube.com/watch?v=pPCa2Se-QSY&t=1s "Tutorial")
 
-# Step by step tutorial
+## Step by step tutorial
 
 1. Make sure you have the required permissions in order to use set-up commands. Type `op yourname` in console for that.
 2. Now you can set the main lobby using `bw setLobby`. Now it will restart the server. Join again and continue this tutorial.
@@ -17,5 +22,5 @@
 11. One more command and it's done! Use `bw save` to save the world and exiti the setup mode.
 12. If you want to play on your new map enable it using: `bw enableArena <mapName>`
 
-# Important
-Now that you've finished the setup read about [serverType](main-configuration#servertype) in order to understand the way you can use the plugin on your server.
+## Important
+Now that you've finished the setup read about [serverType](../configuration/main-configuration#servertype) in order to understand the way you can use the plugin on your server.

@@ -1,3 +1,8 @@
+---
+sidebar_label: Arena Config
+title: Arena Configuration
+sidebar_position: 3.3
+---
 ###### Custom team name
 - Each team can have a custom display name per language. You can configure a team name at this path: `team-name-<arenaName>-<teamName>` in `Languages/messages_x.yml`.
 

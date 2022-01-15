@@ -1,3 +1,8 @@
+---
+sidebar_label: Upgrades Config
+title: Upgrades Configuration
+sidebar_position: 3.9
+---
 The `upgrades2.yml` file contains the configuration for the Upgrades NPC.
 ### Upgrades Main Menu
 The default path is `default-upgrades-settings`.
