@@ -1,4 +1,9 @@
-
+---
+title: BedWars1058 home
+slug: /BedWars1058/
+sidebar_position: 0
+sidebar_label: Home
+---
 
 [![Discord](https://img.shields.io/discord/201345265821679617)](https://discord.gg/XdJfN2X)
 [![Rating](https://img.shields.io/spiget/stars/50942)](https://www.spigotmc.org/resources/50942)
