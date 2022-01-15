@@ -1,3 +1,7 @@
+---
+sidebar_label: FAQ
+sidebar_position: 1.2
+---
 # Frequently Asked Questions
 
 ### How do I edit an existing arena?

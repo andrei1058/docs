@@ -1,3 +1,7 @@
+---
+sidebar_label: Compatability
+sidebar_position: 1.3
+---
 ## Server Software
 BedWars1058 is made for [spigot](https://www.spigotmc.org/) but it works also on spigot forks like [paperspigot](https://papermc.io/downloads).
 

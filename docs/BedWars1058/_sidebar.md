@@ -3,7 +3,6 @@
 * [Home](home)
 * [Features](features)
 * [Frequently Asked Questions](faq)
-* [Terms of Service](tos)
 * [Compatibility](compatibility)
 
 <h3>Setup</h3>
@@ -42,7 +41,3 @@
  * [Creating Commands](developers/commands)
  * [Custom Levels System](developers/custom-levels)
  * [Creating Custom Generators](developers/Creating-Ore-Generators)
-
-<h3>Other</h3>
-
-* [Changelog](changelog)

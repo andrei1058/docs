@@ -1,3 +1,8 @@
+---
+sidebar_label: Features
+title: Features
+sidebar_position: 1.1
+---
 * Individual language per player. Each player can receive messages, holograms and GUIs in his chosen language.
 * You can have unlimited arena groups with custom names, custom generators, custom scoreboard layouts and custom shop and team upgrades.
 * You can create as may teams you want with [custom names per language](https://gitlab.com/andrei1058/BedWars1058/wikis/arena-configuration#custom-team-name) and colors.
