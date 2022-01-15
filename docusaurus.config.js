@@ -51,9 +51,9 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'BedWars1058/home',
             position: 'left',
-            label: 'Tutorial',
+            label: 'BedWars1058',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -70,8 +70,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'BedWars1058',
+                to: '/docs/home',
               },
             ],
           },
