@@ -13,7 +13,7 @@ You can join an arena using `bw join <arenaName>` if it is waiting/ starting. Wh
 # Join GUI
 ![arena-selector](/uploads/arena-selector.png)
 
-You can join arenas via this item received when you join the server if it is `server-type: MULTIARENA`. You can open the arenas GUI also via command `/bw gui` or `/bw gui <groupName>` to open the gui for a specific [group](https://gitlab.com/andrei1058/BedWars1058/wikis/arena-groups). You can't open the arenas GUI at all if your server is `server-type: BUNGEE` and via command only if `server-type: SHARED`. Read about server type here.
+You can join arenas via this item received when you join the server if it is `server-type: MULTIARENA`. You can open the arenas GUI also via command `/bw gui` or `/bw gui <groupName>` to open the gui for a specific [group](arena-groups). You can't open the arenas GUI at all if your server is `server-type: BUNGEE` and via command only if `server-type: SHARED`. Read about server type here.
 
 # Join NPCs
 ![Screenshot_1](/uploads/Screenshot_1.png)

@@ -2,7 +2,7 @@ This page contains the documentation about the `config.yml` file located in `plu
 
 Make sure you're using the right material name when changing item materials in config.
 
-For materials, sounds, and potions, check the [resources page](resrouces)
+For a list of materials, sounds, and potions, check the [resources page](resrouces)
 
 ```yaml
 # There are 4 choices for this option:

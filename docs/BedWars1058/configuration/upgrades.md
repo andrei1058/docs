@@ -67,8 +67,7 @@ category-example-1:
   - separator-name5,1,2,3 #Add multiple numbers separated by comma to put the element in multiple slots.
   
 ```
-For a Material list compatible with versions from 1.8 to 1.12 [click here](https://gitlab.com/andrei1058/BedWars1058/wikis/1.7-1.12-materials).
-For Materials list compatible with 1.13 and newer [click here](https://gitlab.com/andrei1058/BedWars1058/wikis/1.13-newer-materials).
+For a list of materials, sounds, and potions, check the [resources page](resrouces)
 ---
 
 ### Upgrade Element
