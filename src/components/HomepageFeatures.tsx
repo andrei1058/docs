@@ -8,7 +8,7 @@ type FeatureItem = {
   description: JSX.Element;
 };
 
-const FeatureList: FeatureItem[] = [
+const FeatureList: FeatureItem[] = [];/*
   {
     title: 'Easy to Use',
     image: '/img/undraw_docusaurus_mountain.svg',
@@ -39,7 +39,7 @@ const FeatureList: FeatureItem[] = [
       </>
     ),
   },
-];
+];*/
 
 function Feature({title, image, description}: FeatureItem) {
   return (
