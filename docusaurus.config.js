@@ -70,7 +70,7 @@ const config = {
             items: [
               {
                 label: 'BedWars1058',
-                to: '/docs/home',
+                to: '/docs/BedWars1058',
               },
             ],
           },
