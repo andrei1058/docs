@@ -2,7 +2,7 @@ The `upgrades2.yml` file contains the configuration for the Upgrades NPC.
 ### Upgrades Main Menu
 The default path is `default-upgrades-settings`.
 This is a list of content to be displayed in the GUI. 
-`default `stands for [arena group](arena-groups), so if your [arena group](/arena-groups) doesn't have a custom `<groupName>-upgrades-settings` it will use the default one.
+`default `stands for [arena group](arena-groups), so if your [arena group](arena-groups) doesn't have a custom `<groupName>-upgrades-settings` it will use the default one.
 You can use a category or an element in multiple upgrade menus.
 ```yaml
 default-upgrades-settings:
@@ -21,7 +21,7 @@ default-upgrades-settings:
 ```
 **Creating a custom menu for your arena group:**
 1. First of all read the above text because you need to understand how it works.
-2. Create a new line in `upgrades.yml` and write `<groupName>-upgrades-settings:` where `<groupName>` is your [arena group](/arena-groups) (example: solo, doubles).
+2. Create a new line in `upgrades.yml` and write `<groupName>-upgrades-settings:` where `<groupName>` is your [arena group](arena-groups) (example: solo, doubles).
 3. Now add elements to your category like wrote above, under `menu-content`.
 
 
