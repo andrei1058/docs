@@ -1,3 +1,8 @@
+---
+sidebar_label: Getting Started
+title: Getting Started
+sidebar_position: 5.1
+---
 ## First step
 If you want to use the API make sure to load your plugin after [BedWars1058](https://gitlab.com/andrei1058/BedWars1058).
 1.  Add it as softdepend in [plugin.yml](https://www.spigotmc.org/wiki/plugin-yml/): `softdepend: [BedWars1058]`

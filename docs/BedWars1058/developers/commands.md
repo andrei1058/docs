@@ -1,3 +1,8 @@
+---
+sidebar_label: Creating Commands
+title: Creating Commands
+sidebar_position: 5.4
+---
 If you want to create a command for your add-on like `/bw mycmd` continue reading on this page.
 
 **1.** Create a new class with extends `com.andrei1058.bedwars.command.SubCommand`:

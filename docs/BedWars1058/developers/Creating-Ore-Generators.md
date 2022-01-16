@@ -1,3 +1,8 @@
+---
+sidebar_label: Custom Ore Generators
+title: Creating Custom Ore Generators
+sidebar_position: 5.6
+---
 How to create a custom ore generator.
 
 ```java

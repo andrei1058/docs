@@ -1,3 +1,8 @@
+---
+sidebar_label: Maven
+title: Maven
+sidebar_position: 5.2
+---
 [![Version](https://img.shields.io/spiget/version/50942)](https://www.spigotmc.org/resources/50942)
 
 ##### Repository

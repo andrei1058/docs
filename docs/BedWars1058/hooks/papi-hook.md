@@ -1,3 +1,8 @@
+---
+sidebar_label: PlaceholderAPI Support
+title: PlaceholderAPI Support
+sidebar_position: 3.2
+---
 **BedWars1058** is providing [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) support since version 0.5beta. Support is loaded when bed-wars is enabled. You don't have to download it from PAPI ecold.
 
 If you need help with using [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) join their <a href="https://discord.gg/7sndK3q"><img src="https://discordapp.com/api/guilds/164280494874165248/widget.png"/></a>

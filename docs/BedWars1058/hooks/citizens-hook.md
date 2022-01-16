@@ -1,3 +1,8 @@
+---
+sidebar_label: Citizens Support
+title: Citizens Support
+sidebar_position: 3.4
+---
 **BedWars1058** is providing [Citizens](https://www.spigotmc.org/resources/citizens.13811/) support since version 0.6.4beta (API 8). By installing it on your server you will have a new sub-command to the bedwars plugin, `/bw npc` for creating/ removing join-NPCs. Make sure you have instaled the correct version of Citizens compatible with your server in order to have this command listed at `/bw`.
 
 # Video tutorial

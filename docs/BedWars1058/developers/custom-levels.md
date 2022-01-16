@@ -1,3 +1,8 @@
+---
+sidebar_label: Custom Levels
+title: Custom Levels
+sidebar_position: 5.5
+---
 Developers can create their own "Player Level Manager" by implementing the `com.andrei1058.bedwars.api.levels.Level` interface.
 Those methods are used by the plugin to display the player level in the scoreboard etc.
 
