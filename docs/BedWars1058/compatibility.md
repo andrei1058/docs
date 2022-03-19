@@ -16,6 +16,8 @@ Supported versions:
 * **1.15 - 1.15.2** (v1_15_R1)
 * **1.16.1 - 1.16.2** (v1_16_R1)
 * **1.16.3** (v1_16_R2)
+* **1.17.1** (v1_17_R1)
+* **1.18.1** (v1_18_R1)
 
 ## Known issues  
 - If you're running your server on **FoxSpigot** and you can't pick up items from generators set `stack-items: true` in `generators.yml`  
