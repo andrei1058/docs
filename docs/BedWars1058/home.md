@@ -6,9 +6,9 @@ sidebar_label: Home
 ---
 
 [![Discord](https://img.shields.io/discord/201345265821679617)](https://discord.gg/XdJfN2X)
-[![Rating](https://img.shields.io/spiget/stars/50942)](https://www.spigotmc.org/resources/50942)
-[![Version](https://img.shields.io/spiget/version/50942)](https://www.spigotmc.org/resources/50942)
-[![Tested](https://img.shields.io/spiget/tested-versions/50942)](https://www.spigotmc.org/resources/50942)
+[![Rating](https://img.shields.io/spiget/stars/50942)](https://www.spigotmc.org/resources/bedwars1058-opensource.97320/)
+[![Version](https://img.shields.io/spiget/version/50942)](https://www.spigotmc.org/resources/bedwars1058-opensource.97320/)
+[![Tested](https://img.shields.io/spiget/tested-versions/50942)](https://www.spigotmc.org/resources/bedwars1058-opensource.97320/)
 [![Servers](https://img.shields.io/bstats/servers/1885)](https://bstats.org/plugin/bukkit/BedWars1058)
 [![Trello](https://img.shields.io/badge/trello-to--do-blue)](https://trello.com/b/U1gg8nVM/bedwars1058)
 [![Pipelines](https://gitlab.com/andrei1058/BedWars1058/badges/master/pipeline.svg)](https://gitlab.com/andrei1058/BedWars1058/pipelines)
