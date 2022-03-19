@@ -115,6 +115,20 @@ This returns the player's team if a he is a player. [SPECTATOR] if he is a spect
 
 Placeholder: `%bw1058_player_team%`
 
+## Player Status
+This return's the player's status. Meant for conditional placeholders
+
+<details><summary>Values</summary>
+
+`NONE` - The player is not in an arena at all<br/>
+`WAITING` - The player is in a waiting lobby, waiting for the game to start<br/>
+`PLAYING` - The player is playing (not spectating)<br/>
+`SPECTATING` - The player is spectating
+
+</details>
+
+Placeholder: `%bw1058_player_status%`
+
 ## Arena Status
 This returns arena display status based on the server's default language. Since BedWars1058 v0.8.5beta.
 Will return "Restarting" if the arena is offline or if it does not exist.
