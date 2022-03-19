@@ -27,7 +27,7 @@ chat:
 ```
 
 ## Economy
-**BedWars1058** is also providing Vault Economy plugins support since the v21.11.1.
+**BedWars1058** is also providing Vault Economy plugins support since the first version ever released.
 
 You can use all the Economy plugins with [Vault](https://dev.bukkit.org/projects/vault) support like [Coins](https://www.spigotmc.org/resources/coins-1-8-x-1-12-x-mysql-sqlite-api.48536/) and any other economy plugins based on [Vault](https://dev.bukkit.org/projects/vault).
 
