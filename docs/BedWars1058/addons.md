@@ -23,3 +23,4 @@ If you have issues with the addon, it will probably be better to go to any suppo
 - [Discord Stats](https://www.mc-market.org/resources/20403/) - by Zorino
 - [BedWars Spectator & Play-Again Addon {Menu}](https://polymart.org/resource/bw1058-spectator-options-free.1937) - by StudioBeam Development
 - [BedWars Arena Start Messages](https://polymart.org/resource/bedwars1058-arena-start-message.1880) - by StudioBeam Development
+- [DiscordStats for BedWars1058 + Win Streak - Support for DiscordSRV [1.8.8-1.18]](https://www.spigotmc.org/resources/%E2%9A%9C%EF%B8%8F-discordstats-for-bedwars1058-win-streak-support-for-discordsrv-1-8-8-1-18.99183/)
