@@ -56,6 +56,12 @@ const config = {
             label: 'BedWars1058',
           },
           {
+            type: 'doc',
+            docId: 'BedWarsProxy/getting-started',
+            position: 'left',
+            label: 'BedWarsProxy',
+          },
+          {
             href: 'https://github.com/andrei1058',
             label: 'GitHub',
             position: 'right',
