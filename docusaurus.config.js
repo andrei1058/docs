@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'andrei1058 wiki',
   tagline: 'Dinosaurs are cool',
-  url: 'https://docs.andrei1058.com',
+  url: 'https://wiki.andrei1058.dev',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
