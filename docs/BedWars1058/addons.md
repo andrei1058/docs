@@ -1,8 +1,11 @@
 ---
-sidebar_label: Addons
+sidebar_label: Addons & Setups
 title: Addons
 sidebar_position: 99
 ---
+
+## Addons
+
 A list of addons for BedWars1058. <br/>
 To add your own addon(s), use the edit button at the bottom of the page, click the fork button, make your changes, then open a pull request.
 
