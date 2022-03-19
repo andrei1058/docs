@@ -18,7 +18,6 @@ If you have issues with the addon, it will probably be better to go to any suppo
 - [Team Selector - Select your color before the game starts](https://www.spigotmc.org/resources/60438/) - by andrei1058
 - [BedWarsProxy - Arena selector for bungee scalable mode](https://www.spigotmc.org/resources/66642/) - by andrei1058
 - [Reward commands - Execute commands in certain moments of the game](https://www.spigotmc.org/resources/55381/) - by andrei1058
-- [Web stats - Display player stats on a web page](https://www.spigotmc.org/resources/55523/) - by MrDuckBoy_Xx
 - [Pop-up Towers](https://www.spigotmc.org/resources/83661/) - by KimoVoidDSGN
 - [Generator Split](https://www.spigotmc.org/resources/83883/) - by KimoVoidDSGN
 - [Discord Stats](https://www.mc-market.org/resources/20403/) - by Zorino
