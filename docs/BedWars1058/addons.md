@@ -1,6 +1,6 @@
 ---
 sidebar_label: Addons & Setups
-title: Addons
+title: Addons & Pre-Made Setups
 sidebar_position: 99
 ---
 
