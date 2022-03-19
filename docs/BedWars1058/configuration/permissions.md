@@ -18,7 +18,7 @@ sidebar_position: 3.1
 | /bw gui [group]          |           Opens the arena selector gui for the given group. Not available in BUNGEE mode.            |             - |
 | /bw gui [group1+group2]  |                          Opens the arena selector gui for the given groups.                          |             - |
 | /bw join                 |                                            Join an arena.                                            |             - |
-| /bw random               |                                         Join a random arena.                                         |             - |
+| /bw join random          |                                         Join a random arena.                                         |             - |
 | /bw join [groupName]     |                                     Join an arena by group name.                                     |             - |
 | /bw join [group1+group2] |                        Join the first available arena from the given groups.                         |             - |
 | /bw join [arenaName]     |                   Join an arena by given name. This won't work with display name.                    |             - |
