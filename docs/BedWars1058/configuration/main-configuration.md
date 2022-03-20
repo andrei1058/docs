@@ -175,6 +175,24 @@ tnt-jump-settings:
   damage-self: 1
   damage-teammates: 5
   damage-others: 10
+  
+# fireball jump feature
+fireball:
+  #fireball explosion dimension
+  explosion-size: 3
+  #fireball speed
+  speed-multiplier: 10
+  #enable or disable fireball fire
+  make-fire: false
+  knockback:
+    horizontal: 1.0
+    vertical: 0.65
+  # fireball cooldown (time in seconds)
+  cooldown: 0.5
+  # damage -1 to disable custom damage
+    self: 2.0
+    enemy: 2.0
+    teammates: 0.0
 
 # Database settings
 database:
