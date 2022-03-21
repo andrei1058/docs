@@ -10,7 +10,7 @@ You can have rank prefixies and suffixies in chat by adding [Vault](https://dev.
 
 
 
-## Placeholders
+### Placeholders
 Prefix placeholder: `{vPrefix}`
 
 Suffix placeholder: `{vSuffix}`
@@ -31,7 +31,7 @@ chat:
 
 You can use all the Economy plugins with [Vault](https://dev.bukkit.org/projects/vault) support like [Coins](https://www.spigotmc.org/resources/coins-1-8-x-1-12-x-mysql-sqlite-api.48536/) and any other economy plugins based on [Vault](https://dev.bukkit.org/projects/vault).
 
-## Placeholders
+### Placeholders
 BedWars total money placeholder: {money}
 
 You can also use %vault_eco_balance% placeholder or the placeholder of you eco plugin.
