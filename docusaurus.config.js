@@ -78,6 +78,10 @@ const config = {
                 label: 'BedWars1058',
                 to: '/docs/BedWars1058',
               },
+              {
+                label: 'BedWarsProxy',
+                to: '/docs/BedWarsProxy',
+              },
             ],
           },
           {
