@@ -43,6 +43,12 @@ xp-rewards:
   per-teammate: 5
   # How much xp should players receive if they win the game
   game-win: 100
+  # How much xp should players receive if they break an enemy bed
+  bed-destroyed: 15
+  # How much xp should players receive if they kill an enemy
+  regular-kill: 10
+  # How much xp should players receive if they final kill an enemy
+  final-kill: 15
 
 # Progress bar configuration
 progress-bar:
