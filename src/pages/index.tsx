@@ -27,6 +27,7 @@ export default function Home(): JSX.Element {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+          <p style={{textAlign: "center"}}>Select a project above to view it's wiki.</p>
       </main>
     </Layout>
   );
