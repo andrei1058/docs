@@ -44,10 +44,13 @@ xp-rewards:
   # How much xp should players receive if they win the game
   game-win: 100
   # How much xp should players receive if they break an enemy bed
+  # you can set to 0 for disabling
   bed-destroyed: 15
   # How much xp should players receive if they kill an enemy
+  # you can set to 0 for disabling
   regular-kill: 10
   # How much xp should players receive if they final kill an enemy
+  # you can set to 0 for disabling
   final-kill: 15
 
 # Progress bar configuration
