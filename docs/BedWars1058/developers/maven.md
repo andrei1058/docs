@@ -11,7 +11,7 @@ sidebar_position: 5.2
 <repositories>
   <repository>
     <id>andrei1058-repo</id>
-    <url>http://repo.andrei1058.com/releases/</url>
+    <url>https://repo.andrei1058.dev/releases/</url>
   </repository>
 </repositories>
 
