@@ -16,3 +16,4 @@ Welcome to the BedWars1058 wiki. Here you will find a complete set of documentat
 
 You can download it from: 
 * [spigotmc.org](https://www.spigotmc.org/resources/bedwars1058-opensource.97320/)
+* [polymart.org](https://polymart.org/resource/bedwars1058.1152)
