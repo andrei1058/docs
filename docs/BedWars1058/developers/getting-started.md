@@ -26,7 +26,7 @@ Initializing the API:
 BedWars bedwarsAPI = Bukkit.getServicesManager().getRegistration(BedWars .class).getProvider();
 ```
 
-[Click here](http://javadocs.andrei1058.com/BedWars1058/com/andrei1058/bedwars/api/GameAPI.html) for JavaDocs.
+[Click here](https://javadocs.andrei1058.dev/BedWars1058/) for JavaDocs.
 
 ## Configuration
 If you want to create a config file for your add-on, you should use our standars and create it in `plugins/BedWars1058/Addons/AddonName/config.yml`.
