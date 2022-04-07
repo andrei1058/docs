@@ -38,3 +38,9 @@ First, make sure you were using BedWarsProxy's `/bw gui` or `/bw join` and not s
 
 If you are using the correct commands, then make sure that `bungeecord` is set to `true` in `spigot.yml` on all servers (lobby and arenas)
 
+## Sometimes when I join an arena, it kicks me saying `Restarting`
+
+This could be because you took to long to log in, so timed out for joining the arena.
+
+To fix this, increase the `bwp-timeout` option in the bedwars1058 config. It's in miliseconds, so 1000 = 1 second.
+The default is 5000, so 5 seconds.
