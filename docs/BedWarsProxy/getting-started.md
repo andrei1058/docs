@@ -33,7 +33,7 @@ BedWarsProxy is a plugin that can be installed on lobby/hub servers. Do not inst
       1. This is similar to how you set `server-id`, but with your lobby server instead of the arena server.
    5. Set the `serverType` to `BUNGEE`
    6. Restart the arena server
-   7. Repeat steps i-v for each of your arena servers
+   7. Repeat steps i-vi for each of your arena servers
 6. Make sure you've restarted each of the servers (after configuring them), and enjoy!
 
 ## Usage
