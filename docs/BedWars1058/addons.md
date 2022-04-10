@@ -12,7 +12,7 @@ To add your own addon(s), use the edit button at the bottom of the page, click t
 Most of these addons are made by the community.
 If you have issues with the addon, it will probably be better to go to any support the author of the addon has, rather than the main bedwars support.
 
-
+- [BedWars1058-HotbarManager - Feature Packed HotBar Manager for BedWars1058](https://polymart.org/resource/2183) - by StudioBeam Development (Pro_Nil)
 - [Private Games - Create private games and play with friends](https://polymart.org/resource/1620) - by Mher
 - [Compass - Team Tracker, Quick Communications, Multi-language support](https://www.spigotmc.org/resources/91537/) - by Mher
 - [Sponge - Playing cool effect when placing a sponge](https://www.spigotmc.org/resources/93540/) - by Mher
