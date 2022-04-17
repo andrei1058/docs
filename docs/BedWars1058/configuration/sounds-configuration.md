@@ -24,7 +24,9 @@ game-countdown-s3: ENTITY_CHICKEN_EGG
 game-countdown-s2: ENTITY_CHICKEN_EGG
 game-countdown-s1: ENTITY_CHICKEN_EGG
 game-countdown-start: BLOCK_SLIME_BLOCK_FALL
+kill: ENTITY_EXPERIENCE_ORB_PICKUP
 bed-destroy: ENTITY_ENDER_DRAGON_GROWL
+bed-destroy-own: ENTITY_WITHER_DEATH
 shop-insufficient-money: ENTITY_VILLAGER_NO
 shop-bought: ENTITY_VILLAGER_YES
 next-event:
@@ -38,4 +40,7 @@ player-re-spawn: BLOCK_SLIME_BLOCK_FALL
 arena-selector-open: ENTITY_CHICKEN_EGG
 stats-gui-open: ENTITY_CHICKEN_EGG
 trap-sound: ENTITY_ENDERMAN_TELEPORT
+shop-auto-equip: ITEM_ARMOR_EQUIP_GENERIC
+egg-bridge-block: ENTITY_CHICKEN_EGG
+ender-pearl-landed: ENTITY_ENDERMEN_TELEPORT
 ```
