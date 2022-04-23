@@ -25,7 +25,7 @@ BedWarsProxy is a plugin that can be installed on lobby/hub servers. Do not inst
    1. Add the lobby's ip and BedWarsProxy port under `lobby-sockets`.
    2. For example, if your lobby's ip is `51.77.158.119`,
       and the BedWarsProxy port you set in step 2 is `25569`, then this would be your config:<br/>![](/img/immagine.png)
-   3. Next, change `server-id` to be the name of the server in your BungeeCord/Velocity config.
+   3. Next, change `server-id` to be the name of the arena server in your BungeeCord/Velocity config.
       In the example above, the server name in the BungeeCord config is `bw1`.
       1. An easy way to double-check that you set this correctly is to do `/server <server>`,
          replacing `<server>` with what you put in `server-id`
