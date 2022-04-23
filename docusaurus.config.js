@@ -113,9 +113,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-        prism: {
-          additionalLanguages: ['java', 'yaml']
-        },
+        additionalLanguages: ['java', 'yaml']
 
       },
     }),
