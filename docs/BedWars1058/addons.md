@@ -28,7 +28,7 @@ If you have issues with the addon, it will probably be better to go to any suppo
 - [BedWars Arena Start Messages](https://polymart.org/resource/bedwars1058-arena-start-message.1880) - by StudioBeam Development
 - [⚜️ DiscordStats for BedWars1058 - Add Bedwars Stats on your Discord server](https://www.spigotmc.org/resources/%E2%9A%9C%EF%B8%8F-discordstats-for-bedwars1058-win-streak-support-for-discordsrv-1-8-8-1-18.99183/) - by Ruben_Artz
 - [Bedwars1058 winstreak - Track winstreaks](https://www.spigotmc.org/resources/bedwars1058-winstreak-addon-sqlite-mysql.97509/)
-- [CloudNet Support Addon](https://www.spigotmc.org/resources/bedwars1058-cloudnet-addon.100041/)
+- [CloudNet Support Addon](https://www.spigotmc.org/resources/bedwars1058-cloudnet-addon.100041/) - by savalet
 
 ## Pre-made setups
 
