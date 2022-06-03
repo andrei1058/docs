@@ -13,6 +13,7 @@ Most of these addons are made by the community.
 If you have issues with the addon, it will probably be better to go to any support the author of the addon has, rather than the main bedwars support.
 
 - [BedWars1058-HotbarManager - Feature Packed HotBar Manager for BedWars1058](https://polymart.org/resource/2183) - by StudioBeam Development (Pro_Nil)
+- [⚔️ BedWars1058-Armed Mode Addon - A exciting new gamemode for BedWars1058](https://polymart.org/resource/2394) - by StudioBeam Development (Pro_Nil)
 - [Cosmetics - 300+ In-built cosmetics, custom cosmetics, custom rarities, multifunctional, packet-based and more](https://polymart.org/resource/1619) - by Mher
 - [Private Games - Create private games and play with friends](https://polymart.org/resource/1620) - by Mher
 - [Compass - Team Tracker, Quick Communications, Multi-language support](https://www.spigotmc.org/resources/91537/) - by Mher
