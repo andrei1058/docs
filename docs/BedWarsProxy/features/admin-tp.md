@@ -11,6 +11,6 @@ BedWarsProxy will search in every connected arena for the player and then will g
 
 #### Usage
 
-| Command           | Description                            |
-|-------------------|----------------------------------------|
-| `/bw tp <player>` | Teleport and spectate a suspect player |
+| Command           | Description                            | Permission      |
+|-------------------|----------------------------------------|-----------------|
+| `/bw tp <player>` | Teleport and spectate a suspect player | `bw.tp`         |
