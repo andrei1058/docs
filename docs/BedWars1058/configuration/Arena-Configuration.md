@@ -10,7 +10,7 @@ sidebar_position: 3.3
 ```yaml
 #This is the arena group.
 #By default the group value is "Default"
-#Read here about arena groups: https://gitlab.com/andrei1058/BedWars1058/wikis/arena-groups
+#Read here about arena groups: https://wiki.andrei1058.dev/docs/BedWars1058/setup/arena-groups
 group: Solo
 
 #This is the name displayed on the scoreboard, in the arena gui.. etc.
