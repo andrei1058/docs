@@ -12,7 +12,7 @@ sidebar_position: 3.4
 # Creating a NPC
 Join your server and use the following command `/bw npc create <skinName> <groupName> <Line1>\n<Line2>`
 
-Availalble placeholders: `{players}` - shows the players amount on this [arena group](arena-groups).
+Availalble placeholders: `{players}` - shows the players amount on this [arena group](https://wiki.andrei1058.dev/docs/BedWars1058/setup/arena-groups/).
 
 **Example:** `/bw npc create andrei1058 Solo &9&lSolo Games\n{players} playing`
 ![2018-09-02_03.07.28](/uploads/2018-09-02_03.07.28.png)
