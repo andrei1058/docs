@@ -7,7 +7,7 @@ The `upgrades2.yml` file contains the configuration for the Upgrades NPC.
 ### Upgrades Main Menu
 The default path is `default-upgrades-settings`.
 This is a list of content to be displayed in the GUI. 
-`default `stands for [arena group](arena-groups), so if your [arena group](arena-groups) doesn't have a custom `<groupName>-upgrades-settings` it will use the default one.
+`default `stands for [arena group](https://wiki.andrei1058.dev/docs/BedWars1058/setup/arena-groups), so if your [arena group](https://wiki.andrei1058.dev/docs/BedWars1058/setup/arena-groups) doesn't have a custom `<groupName>-upgrades-settings` it will use the default one.
 You can use a category or an element in multiple upgrade menus.
 ```yaml
 default-upgrades-settings:
@@ -26,7 +26,7 @@ default-upgrades-settings:
 ```
 **Creating a custom menu for your arena group:**
 1. First of all read the above text because you need to understand how it works.
-2. Create a new line in `upgrades.yml` and write `<groupName>-upgrades-settings:` where `<groupName>` is your [arena group](arena-groups) (example: solo, doubles).
+2. Create a new line in `upgrades.yml` and write `<groupName>-upgrades-settings:` where `<groupName>` is your [arena group](https://wiki.andrei1058.dev/docs/BedWars1058/setup/arena-groups) (example: solo, doubles).
 3. Now add elements to your category like wrote above, under `menu-content`.
 
 
@@ -72,7 +72,7 @@ category-example-1:
   - separator-name5,1,2,3 #Add multiple numbers separated by comma to put the element in multiple slots.
   
 ```
-For a list of materials, sounds, and potions, check the [resources page](resrouces)
+For a list of materials, sounds, and potions, check the [resources page](https://wiki.andrei1058.dev/docs/BedWars1058/resources)
 ---
 
 ### Upgrade Element
