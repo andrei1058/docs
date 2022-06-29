@@ -3,7 +3,7 @@ sidebar_label: Compatability
 sidebar_position: 1.3
 ---
 ## Server Software
-BedWars1058 is made for [spigot](https://www.spigotmc.org/) but it works also on spigot forks like [paperspigot](https://papermc.io/downloads).
+BedWars1058 is made for [spigot](https://www.spigotmc.org/) but it works also on spigot forks like [PaperMC](https://papermc.io/downloads).
 
 ### Supported versions
 * **1.8.8** (v1_8_R3)
@@ -12,8 +12,8 @@ BedWars1058 is made for [spigot](https://www.spigotmc.org/) but it works also on
 * **1.17.1** (v1_17_R1)
 * **1.18.1** (v1_18_R1)
 
-### Supported versions that may be removed
-These versions are supported, but may be removed in the future
+### Supported versions that have been removed
+These versions are only supported up to plugin version 22.3.4, and have been removed in newer versions
 * **1.9.4** (v1_9_R2)
 * **1.10 - 1.10.2** (v1_10_R1)
 * **1.11** (v1_11_R1)
@@ -21,6 +21,19 @@ These versions are supported, but may be removed in the future
 * **1.14 - 1.14.2** (v1_14_R1)
 * **1.15 - 1.15.2** (v1_15_R1)
 * **1.16 - 1.16.3** (v1_16_R1/2)
+
+## Java Versions
+Java 11 or newer is required for BedWars1058. Since Version 22.3.4
+
+## Recommended Java Versions
+We recommend using Java 17 or newer when possible
+
+### Supported versions that may be removed in the future
+* **1.18.1** (v1_18_R1)
+
+### Version Support coming soon
+* **1.18.2** (v1_18_R2)
+* **1.19 - 1.19.1** (v1_19_R1)
 
 ## Known issues  
 - If you're running your server on **FoxSpigot** and you can't pick up items from generators set `stack-items: true` in `generators.yml`  
