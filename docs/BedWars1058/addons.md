@@ -39,3 +39,4 @@ If you have issues with the addon, it will probably be better to go to any suppo
 - by Ruben_Artz - [BEDWARS + DISCORD BOT](https://polymart.org/resource/bedwars-discord-bot-setup.544)
 - by StudioBeam Development - [✨BEDWARS SETUP - With 100+ Pre-Made Arenas, Custom Menus, Grappling Hooks {Exclusive Features!}](https://polymart.org/resource/bedwars-setup-studiobeam-dev.1968)
 - by DyeEarth - [❄️ Premade Bedwars - Setups](https://polymart.org/resource/premade-bedwars-setups.1679)
+- by LunoXx (RookieDevs') - [FREE - Bedwars Server Setup 48 Arenas | Custom Menus | Solo,Doubles,Trios,Squads](https://rookiedevs.xyz/resources/bedwars-setup.10/)
