@@ -13,7 +13,7 @@ BedWars1058 is made for [spigot](https://www.spigotmc.org/) but it works also on
 * **1.18.1** (v1_18_R1)
 
 ### Supported versions that have been removed
-These versions are only supported up to plugin version 22.3.4, and have been removed in versions 22.7 and newer
+These versions are only supported up to plugin version 22.3.4, and have been removed in versions 22.7 and newer 
 * **1.9.4** (v1_9_R2)
 * **1.10 - 1.10.2** (v1_10_R1)
 * **1.11** (v1_11_R1)
@@ -22,9 +22,9 @@ These versions are only supported up to plugin version 22.3.4, and have been rem
 * **1.15 - 1.15.2** (v1_15_R1)
 * **1.16 - 1.16.3** (v1_16_R1/2)
 
-## Java Versions
-Java 11 or newer is required for BedWars1058 since Version 22.7 
-Java 8 or newer is required for BedWars1058 below Version 22.3.4
+## Minimum Java Versions
+Java 11 or newer is required for BedWars1058 Version 22.7 and newer
+Java 8 or newer is required for BedWars1058 Version 22.3.4 and older
 
 ## Recommended Java Versions
 We recommend using Java 17 or newer when possible
