@@ -32,6 +32,7 @@ If you have issues with the addon, it will probably be better to go to any suppo
 - [Bedwars1058 winstreak - Track winstreaks](https://www.spigotmc.org/resources/bedwars1058-winstreak-addon-sqlite-mysql.97509/)
 - [CloudNet Support Addon](https://www.spigotmc.org/resources/bedwars1058-cloudnet-addon.100041/) - by savalet
 - [♻️ Swappage - Swap to your opponent's team with ease](https://www.spigotmc.org/resources/swappage-bedwars1058-addon.102551/) - by [Tofpu](https://github.com/Tofpu)
+- [🍇 Bedwars Voidless - Adds the auto-bed defense feature to voidless mode](https://polymart.org/resource/bedwars1058-voidless-addon.2599/) - by Zuyte
 
 ## Pre-made setups
 
