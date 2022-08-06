@@ -33,6 +33,7 @@ If you have issues with the addon, it will probably be better to go to any suppo
 - [CloudNet Support Addon](https://www.spigotmc.org/resources/bedwars1058-cloudnet-addon.100041/) - by savalet
 - [♻️ Swappage - Swap to your opponent's team with ease](https://www.spigotmc.org/resources/swappage-bedwars1058-addon.102551/) - by [Tofpu](https://github.com/Tofpu)
 - [🍇 Bedwars Voidless - Adds the auto-bed defense feature to voidless mode](https://polymart.org/resource/bedwars1058-voidless-addon.2599/) - by Zuyte
+- [⚒️ Bedwars AdminAddon - Admin & Troll features of Bedwars1058!](https://polymart.org/resource/bedwars1058-adminaddon.2684) - by Zuyte
 
 ## Pre-made setups
 
