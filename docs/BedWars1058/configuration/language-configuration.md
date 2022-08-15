@@ -54,7 +54,6 @@ A easier alternative is using `{team}` placeholder which will take the team form
 ##### In Game placeholders:
 - `{deaths}` - shows the player's deaths in current game (when used in game).
 - `{kills}` - shows the player's kills in current game (when used in game).
-- `{deaths}` - shows the player's deaths in current game (when used in game).
 - `{finalKills}` - show player's final kills in current game (when used in game).
 - `{beds}` - show beds destroyed by player in current game (when used in game).
 - `{on}` - show the number of players in current game (when used in game).
