@@ -7,13 +7,13 @@ BedWars1058 is made for [spigot](https://www.spigotmc.org/) but it works also on
 
 ### Supported versions
 * **1.8.8** (v1_8_R3)
-* **1.12 - 1.12.1 - 1.12.2** (v1_12_R1)
-* **1.16.4/5** (v1_16_R3)
+* **1.12.2** (v1_12_R1)
+* **1.16.5** (v1_16_R3)
 * **1.17.1** (v1_17_R1)
 * **1.18.1** (v1_18_R1)
 
 ### Supported versions that have been removed
-These versions are only supported up to plugin version 22.3.4, and have been removed in versions 22.7 and newer 
+These versions are only supported up to plugin version 22.3.4, and have been removed in bedwars1058 versions 22.7 and newer 
 * **1.9.4** (v1_9_R2)
 * **1.10 - 1.10.2** (v1_10_R1)
 * **1.11** (v1_11_R1)
@@ -29,12 +29,12 @@ Java 8 or newer is required for BedWars1058 Version 22.3.4 and older
 ## Recommended Java Versions
 We recommend using Java 17 or newer when possible
 
-### Supported versions that may be removed in the future
+### Supported versions that will be removed in the future
 * **1.18.1** (v1_18_R1)
 
 ### Version Support coming soon
 * **1.18.2** (v1_18_R2)
-* **1.19 - 1.19.1** (v1_19_R1)
+* **1.19.2** (v1_19_R1)
 
 ## Known issues  
 - If you're running your server on **FoxSpigot** and you can't pick up items from generators set `stack-items: true` in `generators.yml`  
