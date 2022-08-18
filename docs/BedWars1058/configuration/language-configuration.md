@@ -4,7 +4,7 @@ title: Language Configuration
 sidebar_position: 3.99
 ---
 ### Creating custom scoreboards
-You can create custom scoreboards per [Arena Groups](arena-groups). So, let's suppose you have an arena group called `4v4v4v4`, then you can create a custom scoreboard for the arenas using this arena group. You can edit the scoreboard for each arena state (waiting, starting, playing). So let's suppose you want to have a custom playing scoreboard. Just go in the language file, under the `scoreboard` section and add yur arena group name and under it, the arena status name:
+You can create custom scoreboards per [Arena Groups](https://wiki.andrei1058.dev/docs/BedWars1058/setup/arena-groups/). So, let's suppose you have an arena group called `4v4v4v4`, then you can create a custom scoreboard for the arenas using this arena group. You can edit the scoreboard for each arena state (waiting, starting, playing). So let's suppose you want to have a custom playing scoreboard. Just go in the language file, under the `scoreboard` section and add yur arena group name and under it, the arena status name:
 ```yaml
 scoreboard:
   4v4v4v4:
