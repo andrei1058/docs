@@ -320,7 +320,7 @@ stats-gui:
 # in his inventory. The other items are given without checking any conditions.
 start-items-per-group:
   #This is the the name of the arena group where to give the start items. If you don't know what is it, 
-  # read about them https://gitlab.com/andrei1058/BedWars1058/wikis/arena-groups.
+  # read about them https://wiki.andrei1058.dev/docs/BedWars1058/setup/arena-groups.
   # Arenas without an given arena group will receive items from "Default". Start items are unbreakable!
   Default:
   - WOODEN_SWORD
