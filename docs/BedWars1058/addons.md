@@ -34,7 +34,7 @@ If you have issues with the addon, it will probably be better to go to any suppo
 - [♻️ Swappage - Swap to your opponent's team with ease](https://www.spigotmc.org/resources/swappage-bedwars1058-addon.102551/) - by [Tofpu](https://github.com/Tofpu)
 - [BedWars1058-XpBar Addon](https://polymart.org/resource/bedwars1058-xpbar-addon.2743) - by itz_leoo
 - [BedWars1058 Spectator Options addon](https://polymart.org/resource/bedwars1058-spectator-options.1916) - by CubeCrafter
-- [BedWars1058 PlayAgain addon](https://polymart.org/resource/bedwars1058-play-again-addon.1946) - by CubeCrafter
+- [BedWars1058 PlayAgain addon](https://www.spigotmc.org/resources/play-again-addon-%E2%AD%90-bedwars1058-%E2%AD%95-1-8-1-19.104653/) - by CubeCrafter
 
 ## Pre-made setups
 
