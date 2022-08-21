@@ -29,9 +29,10 @@ If you have issues with the addon, it will probably be better to go to any suppo
 - [BedWars Spectator & Play-Again Addon {Menu}](https://polymart.org/resource/bw1058-spectator-options-free.1937) - by StudioBeam Development
 - [BedWars Arena Start Messages](https://polymart.org/resource/bedwars1058-arena-start-message.1880) - by StudioBeam Development
 - [⚜️ DiscordStats for BedWars1058 - Add Bedwars Stats on your Discord server](https://www.spigotmc.org/resources/%E2%9A%9C%EF%B8%8F-discordstats-for-bedwars1058-win-streak-support-for-discordsrv-1-8-8-1-18.99183/) - by Ruben_Artz
-- [Bedwars1058 winstreak - Track winstreaks](https://www.spigotmc.org/resources/bedwars1058-winstreak-addon-sqlite-mysql.97509/)
+- [Bedwars1058 winstreak - Track winstreaks](https://www.spigotmc.org/resources/bedwars1058-winstreak-addon-sqlite-mysql.97509/) - by reussy
 - [CloudNet Support Addon](https://www.spigotmc.org/resources/bedwars1058-cloudnet-addon.100041/) - by savalet
 - [♻️ Swappage - Swap to your opponent's team with ease](https://www.spigotmc.org/resources/swappage-bedwars1058-addon.102551/) - by [Tofpu](https://github.com/Tofpu)
+- [BedWars1058-XpBar Addon](https://polymart.org/resource/bedwars1058-xpbar-addon.2743) - by itz_leoo
 
 ## Pre-made setups
 
@@ -39,3 +40,4 @@ If you have issues with the addon, it will probably be better to go to any suppo
 - by Ruben_Artz - [BEDWARS + DISCORD BOT](https://polymart.org/resource/bedwars-discord-bot-setup.544)
 - by MicroPalash - [✨BEDWARS SETUP - With 100+ Pre-Made Arenas, Custom Menus, Grappling Hooks {Exclusive Features!}](https://polymart.org/resource/1968)
 - by DyeEarth - [❄️ Premade Bedwars - Setups](https://polymart.org/resource/premade-bedwars-setups.1679)
+- by RInDev - [🎁 BedWars1058 Setup ](https://polymart.org/resource/bedwars1058-setup-free.2748)
