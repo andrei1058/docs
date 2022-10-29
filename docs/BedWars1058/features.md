@@ -9,7 +9,7 @@ sidebar_position: 1.1
 * The scoreboars are 100% configurable. You can add up tp 16 lines and you can use any placeholders you want.
 * Waiting lobby removal feature. It will remove the waiting lobby when the game starts.
 * Three ways to use the plugin: shared (multiple games on a server), bungee (one server one arena), multiarena (one server more arenas).
-* The shop is 100% configurabile. You can create new categories and add new items. Works also with vault economy.
+* The shop is 100% configurable. You can create new categories and add new items. Works also with vault economy.
 * Special items available. Debug (silverfish), Dream Defender (Iron Golem) and Egg Bridge (Egg).
 * Team upgrades are 100% customisable. You can add more tiers and more upgrade types with effects, enchants, traps etc.
 * Ore generators values can be changed and also you can have different settings per arena group.
