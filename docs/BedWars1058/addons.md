@@ -33,6 +33,7 @@ If you have issues with the addon, it will probably be better to go to any suppo
 - [CloudNet Support Addon](https://www.spigotmc.org/resources/bedwars1058-cloudnet-addon.100041/) - by savalet
 - [♻️ Swappage - Swap to your opponent's team with ease](https://www.spigotmc.org/resources/swappage-bedwars1058-addon.102551/) - by [Tofpu](https://github.com/Tofpu)
 - [BedWars1058-XpBar Addon](https://polymart.org/resource/bedwars1058-xpbar-addon.2743) - by itz_leoo
+- [BedWars1058-BossBar Addon](https://polymart.org/resource/bedwars1058-bossbar.2881) - by NotLew_x
 
 ## Pre-made setups
 
