@@ -23,7 +23,7 @@ public void onEnable() {
 ## Getting API Methods
 Initializing the API:
 ```java
-BedWars bedwarsAPI = Bukkit.getServicesManager().getRegistration(BedWars .class).getProvider();
+BedWars bedwarsAPI = Bukkit.getServicesManager().getRegistration(BedWars.class).getProvider();
 ```
 
 [Click here](https://javadocs.andrei1058.dev/BedWars1058/) for JavaDocs.
