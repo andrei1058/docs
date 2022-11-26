@@ -37,7 +37,8 @@ If you have issues with the addon, it will probably be better to go to any suppo
 - [XpBar Addon - Addon that sets bedwars's level and experience in the xp bar.](https://polymart.org/resource/2743/) - by itz_leoo
 - [MapSelector Addon - Addon that permits to join a specify arena, from a menu like hypixel.](https://polymart.org/resource/2776/) - by itz_leoo
 - [Kdr, Fkdr, Wlr Addon - Addon that adds 3 new stats placeholders: Kdr, Fkdr and Wlr.](https://polymart.org/resource/2778/) - by itz_leoo
-- [RewardSummary Addon - Addon that sends the reward summary to players when a game ends.](https://polymart.org/resource/2826/) - itz_leoo
+- [RewardSummary Addon - Addon that sends the reward summary to players when a game ends.](https://polymart.org/resource/2826/) - by itz_leoo
+- [HolidayReward Addon - Addon that add the possibility to create rewards.](https://polymart.org/resource/3079) - by itz_leoo
 - [Spectator Options - Add useful settings for spectators!](https://polymart.org/resource/1916/) - by CubeCrafter72
 - [Ultimate Mode - A fun game mode for BedWars1058!](https://polymart.org/resource/2785/) - by CubeCrafter72
 - [Hypixel Migrator - Migrate your Hypixel layout to BedWars1058!](https://polymart.org/resource/2836/) - by CubeCrafter72
@@ -62,3 +63,4 @@ If you have issues with the addon, it will probably be better to go to any suppo
 - by RInDev - [🎁 BedWars1058 Setup ](https://polymart.org/resource/2748/)
 - by LunoXx - [ Bedwars Setup for free](https://polymart.org/resource/2810/)
 - by Shanvir - [⚔ BEDWARS SETUP ⚔](https://polymart.org/resource/2913/)
+- by ArrowTan - [Brand New 1.17.1 Bedwars Setup](https://polymart.org/resource/3038)
