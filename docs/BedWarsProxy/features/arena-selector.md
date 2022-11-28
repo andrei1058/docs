@@ -2,7 +2,7 @@
 title: Arena Selector
 sidebar_position: 2.1
 ---
-Join bed-wars games running in bungee mode.
+Join BedWars games running in bungee mode.
 
 ## How to use
 
@@ -12,7 +12,7 @@ Join bed-wars games running in bungee mode.
 | `/bw gui <group>` | Will open a gui containing all arenas from the given group. |
 
 :::tip
-If you are using ChestCommands for exaple, you can add a new item with one of the above commands.
+If you are using ChestCommands for example, you can add a new item with one of the above commands.
 :::
 
 :::caution Note
