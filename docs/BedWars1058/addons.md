@@ -53,6 +53,7 @@ If you have issues with the addon, it will probably be better to go to any suppo
 - [TabSorter - Simple and Lightweight Tablist Sorter for BedWars1058.](https://www.spigotmc.org/resources/100842/) - by MrF1yn
 - [ArenaSetup - Setup items for BedWars1058.](https://www.spigotmc.org/resources/97709/) - by Sxhqil
 - [BossBar - A Bossbar Addon for BedWars1058.](https://polymart.org/resource/2881/) - by NotLew_x
+- [GroupStats - Addon for bedwars1058 for sorting statistics into arena-groups](https://polymart.org/resource/3184) - by I6y
 
 ## Pre-made setups
 
