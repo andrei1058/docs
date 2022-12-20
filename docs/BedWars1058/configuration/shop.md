@@ -61,6 +61,10 @@ shop-specials:
     health: 100.0
     despawn: 240
     speed: 0.25
+  # Here you configure which item should spawn the "Pop-Up Tower"
+  tower:
+    enable: true
+    material: CHEST
 
 # This is not a shop category
 # This section contains the items you receive at the quick-buy shop category by default 
