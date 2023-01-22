@@ -26,6 +26,7 @@ Initializing the API:
 BedWars bedwarsAPI = Bukkit.getServicesManager().getRegistration(BedWars.class).getProvider();
 ```
 
+## JavaDoc
 [Click here](https://javadocs.andrei1058.dev/BedWars1058/) for JavaDocs.
 
 ## Configuration
