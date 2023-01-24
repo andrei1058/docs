@@ -249,7 +249,21 @@ performance-settings:
   # the player armor when he drinks a invisibility potion.
   # Armor packets will be still used at respawn if disable-spawn-packets is set to false
   disable-armor-packets: false
-
+  
+  # Set this to true if you want to enable
+  # Paper async teleport
+  paper-features: true
+  
+  # heal pool particles
+  heal-pool:
+    # Set this to true if you want to enable
+    # heal pool particles
+    enable: true
+    
+    # Set this to true if you want to enable
+    # heal pool particles only for your team
+    seen-by-team-only: true
+    
 # Arena selector GUI settings
 # Ignore this section if your serverType is BUNGEE
 arena-gui:
