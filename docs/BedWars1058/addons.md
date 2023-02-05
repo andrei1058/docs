@@ -59,7 +59,6 @@ If you have issues with the addon, it will probably be better to go to any suppo
 
 - by Adi100 - [BEDWARS SETUP ✨Generator Upgrade | Afk System | Custom Menus | NPCs](https://builtbybit.com/resources/12378/)
 - by Ruben_Artz - [BEDWARS + DISCORD BOT](https://polymart.org/resource/544/)
-- by StudioBeam Development - [✨BEDWARS SETUP - With 100+ Pre-Made Arenas, Custom Menus, Grappling Hooks {Exclusive Features!}](https://polymart.org/resource/1968/)
 - by DyeEarth - [❄️ Premade Bedwars - Setups](https://polymart.org/resource/1679/)
 - by RInDev - [🎁 BedWars1058 Setup ](https://polymart.org/resource/2748/)
 - by LunoXx - [ Bedwars Setup for free](https://polymart.org/resource/2810/)
