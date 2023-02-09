@@ -65,6 +65,17 @@ A easier alternative is using `{team}` placeholder which will take the team form
 - `{group}` - shows the arena group in the waiting lobby.
 - `{map_name}` - the map you're playing on (for arena display name use {map}).
 
+##### Kill/Bed-Destroy Message placeholders:
+- `{PlayerColor}` - shows the player's team color.
+- `{PlayerName}` - shows the name of the player .
+- `{PlayerNameUnformatted}` - shows the name of the player without formatting.
+- `{KillerColor}` - shows the color of the killer's team.
+- `{PlayerTeamName}` - shows the name of the player's team.
+- `{KillerName}` - shows the name of the killer.
+- `{KillerNameUnformatted}` - shows the name of the killer without formatting.
+- `{KillerTeamName}` - shows the name of the killer's team.
+
+
 ### Animations and timers
 For more configuration options check the [config.yml](main-configuration) wiki.
 
