@@ -28,6 +28,7 @@ If you have issues with the addon, it will probably be better to go to any suppo
 - [Pop-up Towers - Adds an animated pop-up tower to BedWars1058!](https://www.spigotmc.org/resources/83661/) - by KimoVoidDSGN
 - [Generator Split - Lightweight addon to split generator items on teams!](https://www.spigotmc.org/resources/83883/) - by KimoVoidDSGN
 - [Discord Stats | Corebot Addon - Spice up your discord server with Minecraft Bedwars Stats & Leaderboards on Discord.](https://builtbybit.com/resources/20403/) - by Zorino
+- [CentralBot - A Discord Stats Plugin which displays players info from BedWars1058!](https://www.spigotmc.org/resources/107498/) - by RRS
 - [DiscordStats for BedWars1058 - Get the stats of your players on discord!](https://polymart.org/resource/1889/) - by STN-Studios
 - [Golden GG - Add a color when a player writes gg when winning a game.](https://www.spigotmc.org/resources/95321/) - by STN-Studios
 - [Winstreak - Streak system for BedWars players.](https://polymart.org/resource/1871) - by reussy
@@ -47,19 +48,21 @@ If you have issues with the addon, it will probably be better to go to any suppo
 - [⚒️ AdminAddon - Admin & Troll features of Bedwars1058!](https://polymart.org/resource/2684/) - by Zuyte
 - [LeaveDelay Addon - Adds delay to leave item in Bedwars1058!](https://polymart.org/resource/2805/) - by Zuyte
 - [RushMode - Bedwars1058 Rush Mode like Hypixel!](https://www.spigotmc.org/resources/105028/) - by Happy_FZM
-- [Per Group Stats Addon - Per Gruop Stats Placeholder like Hypixel.](https://www.spigotmc.org/resources/105279/) - Vasiliy, IamTheDefender
+- [GroupStats - Addon for bedwars1058 for sorting statistics into arena-groups](https://polymart.org/resource/3184) - by I6y
+- [Per Group Stats Addon - Per Gruop Stats Placeholder like Hypixel.](https://www.spigotmc.org/resources/105279/) - by Vasiliy, IamTheDefender
 - [PerArenaGen - Set custom generator speed for every arena.](https://polymart.org/resource/2815/) - IamTheDefender
-- [Color Changer Addon - Simply changes the color of the blocks.](https://www.spigotmc.org/resources/104501/) - Vasiliy
+- [Cosmetics - Cosmetics addon inspired by Hypixel for bedwars1058 that is free!](https://www.spigotmc.org/resources/106685/) - by IamTheDefender
+- [Item Rotation - Item rotation addon for bedwars1058 inspired by Hypixel's new update!](https://www.spigotmc.org/resources/107016/) - by IamTheDefender
+- [Color Changer Addon - Simply changes the color of the blocks.](https://www.spigotmc.org/resources/104501/) - by Vasiliy
 - [TabSorter - Simple and Lightweight Tablist Sorter for BedWars1058.](https://www.spigotmc.org/resources/100842/) - by MrF1yn
 - [ArenaSetup - Setup items for BedWars1058.](https://www.spigotmc.org/resources/97709/) - by Sxhqil
 - [BossBar - A Bossbar Addon for BedWars1058.](https://polymart.org/resource/2881/) - by NotLew_x
-- [GroupStats - Addon for bedwars1058 for sorting statistics into arena-groups](https://polymart.org/resource/3184) - by I6y
+- [AdventureMode - Gamemode change utility for BedWars1058](https://polymart.org/resource/3296/) - by NotLew_x
 
 ## Pre-made setups
 
 - by Adi100 - [BEDWARS SETUP ✨Generator Upgrade | Afk System | Custom Menus | NPCs](https://builtbybit.com/resources/12378/)
 - by Ruben_Artz - [BEDWARS + DISCORD BOT](https://polymart.org/resource/544/)
-- by StudioBeam Development - [✨BEDWARS SETUP - With 100+ Pre-Made Arenas, Custom Menus, Grappling Hooks {Exclusive Features!}](https://polymart.org/resource/1968/)
 - by DyeEarth - [❄️ Premade Bedwars - Setups](https://polymart.org/resource/1679/)
 - by RInDev - [🎁 BedWars1058 Setup ](https://polymart.org/resource/2748/)
 - by LunoXx - [ Bedwars Setup for free](https://polymart.org/resource/2810/)
