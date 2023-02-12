@@ -33,18 +33,19 @@ A easier alternative is using `{team}` placeholder which will take the team form
 
 ##### Global placeholders:
 - `{date}` - shows the date with the player's date format taken from his language file.
-- `{level}` - shows the player level. This won't auto-refresh.
-- `{currentXp}` - shows the player's current xp. This won't auto-refresh.
-- `{requiredXp}` - shows the required xp to rankup. This won't auto-refresh.
-- `{progress}` - shows the progress bar. This won't auto-refresh.
-- `{losses}` - shows the player's losses. This won't auto-refresh.
-- `{kills}` - shows the player's total kills (when not used in game). Won't auto-refresh.
+- `{level}` - shows the player level. Does not auto-refresh.
+- `{levelUnformated}` - shows the plain player level without formatting. Does not auto-refresh.
+- `{currentXp}` - shows the player's current xp. Does not auto-refresh.
+- `{requiredXp}` - shows the required xp to rankup. Does not auto-refresh.
+- `{progress}` - shows the progress bar. Does not auto-refresh.
+- `{losses}` - shows the player's losses. Does not auto-refresh.
+- `{kills}` - shows the player's total kills (when not used in game). Does not auto-refresh.
 - `{player}` - shows the player name.
-- `{deaths}` - shows the player's total deaths (when not used in game). Won't auto-refresh.
+- `{deaths}` - shows the player's total deaths (when not used in game). Does not auto-refresh.
 - `{coins}` - shows the player's money (Vault).
-- `{finalKills}` - show player's total final kills (when not used in game). Won't auto-refresh.
-- `{finalDeaths}` - show player's total final deaths (when not used in game). Won't auto-refresh.
-- `{bedsDestroyed}` - show total beds destroyed by player (when not used in game. Won't auto-refresh.
+- `{finalKills}` - show player's total final kills (when not used in game). Does not auto-refresh.
+- `{finalDeaths}` - show player's total final deaths (when not used in game). Does not auto-refresh.
+- `{bedsDestroyed}` - show total beds destroyed by player (when not used in game). Does not auto-refresh.
 - `{wins}` - show the number of games won by player.
 - `{on}` - show the number of players on the server (when not used in game).
 - `{server_ip}` - shows the server IP taken from config.yml.
@@ -64,6 +65,17 @@ A easier alternative is using `{team}` placeholder which will take the team form
 - `{time}` - shows the time when the Next Event will happen.
 - `{group}` - shows the arena group in the waiting lobby.
 - `{map_name}` - the map you're playing on (for arena display name use {map}).
+
+##### Kill/Bed-Destroy Message placeholders:
+- `{PlayerColor}` - shows the player's team color.
+- `{PlayerName}` - shows the name of the player .
+- `{PlayerNameUnformatted}` - shows the name of the player without formatting.
+- `{KillerColor}` - shows the color of the killer's team.
+- `{PlayerTeamName}` - shows the name of the player's team.
+- `{KillerName}` - shows the name of the killer.
+- `{KillerNameUnformatted}` - shows the name of the killer without formatting.
+- `{KillerTeamName}` - shows the name of the killer's team.
+
 
 ### Animations and timers
 For more configuration options check the [config.yml](main-configuration) wiki.
