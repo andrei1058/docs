@@ -23,5 +23,11 @@ Read about this [here](setup/creating-arenas#map-resetting-system)
 ![img](https://i.imgur.com/IYzHdK6.jpg?1)
 This is a client-side issue and it happens on modified clients (usually on 1.8.x).
 
+### Error occurred while enabling BedWars1058, what does it mean?
+In most cases it means that you are running an unsupported version, check: [compatibility](compatibility#supported-versions).
+When a message is displayed like ``this version of the Java Runtime only recognizes class file versions up to 52.0`` this means you are running an outdated version of Java. Update to a more recent version of java as desribed here: [Recommended Java Versions](compatibility#recommended-java-versions).
+Note: If you are running a 1.8 server you might have to disable use-native-transport in server.properties in order for the server to start.
+
+
 ### Discord
 Couldn't find an answer? Join my <a href= "https://discord.gg/XdJfN2X"><img src="https://discordapp.com/api/guilds/201345265821679617/widget.png"/></a>
