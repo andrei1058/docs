@@ -31,6 +31,15 @@ Using team placeholders is easy. Let's suppose that you have a team called `Brea
 
 A easier alternative is using `{team}` placeholder which will take the team format from the message at path: `format-sb-team-generic` (by default {TeamColor}{TeamLetter}&f {TeamName}: {TeamStatus}). This placeholder can be used in multiple lines and it will iterate the team list of the arena and will asign it a team. When the placeholder is used more than team list size the scoreboard line with {team} in it will be skipped.
 
+##### Upgrade placeholders:
+Upgrades are divided in tiers each upgrade will have a corresponding line containing the cost and currency and the tier color, this makes the tier show up as purchased or not. 
+All variables mentioned below are gathered from `upgrades2.yml`.
+- `{tier_x_color}` - changes the color based on purchased or not.
+- `{tier_x_cost}` - shows the cost of the upgrade.
+- `{tier_x_currency}` - shows the currency used to buy the upgrade.
+
+When adding a tier to `upgrades2.yml` you should add another line in each of the language files used. and replace the `x` with the corresponding tier number.
+
 ##### Global placeholders:
 - `{date}` - shows the date with the player's date format taken from his language file.
 - `{level}` - shows the player level. Does not auto-refresh.
