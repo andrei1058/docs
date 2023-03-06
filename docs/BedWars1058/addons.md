@@ -60,6 +60,7 @@ If you have issues with the addon, it will probably be better to go to any suppo
 - [ArenaSetup - Setup items for BedWars1058.](https://www.spigotmc.org/resources/97709/) - by Sxhqil
 - [BossBar - A Bossbar Addon for BedWars1058.](https://polymart.org/resource/2881/) - by NotLew_x
 - [AdventureMode - Gamemode change utility for BedWars1058](https://polymart.org/resource/3296/) - by NotLew_x
+- [BedSteal - New Gamemode for BedWars1058](https://polymart.org/resource/3575/) - by Endern, Zuyte and smaks
 
 
 ## Pre-made Setups
