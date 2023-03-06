@@ -18,7 +18,6 @@ If you have issues with the addon, it will probably be better to go to any suppo
 - [Cosmetics - 300+ In-built cosmetics, custom cosmetics, custom rarities, multifunctional, packet-based and more](https://polymart.org/resource/1619/) - by Mher
 - [Private Games - Create private games and play with friends](https://polymart.org/resource/1620/) - by Mher
 - [LuckyBlock NTD - Add LuckyBlocks to your ingame spawners](https://www.spigotmc.org/resources/94872/) - by danirod12
-- [CentralBot - A Discord Stats Plugin which displays players info from BedWars1058!](https://www.spigotmc.org/resources/107498/) - by RRS
 - [DiscordStats for BedWars1058 - Get the stats of your players on discord!](https://polymart.org/resource/1889/) - by STN-Studios
 - [Quests - A powerful quest system based for BedWars1058.](https://polymart.org/resource/1802) - by reussy
 - [Spectator Options - Add useful settings for spectators!](https://polymart.org/resource/1916/) - by CubeCrafter72
