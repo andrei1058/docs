@@ -13,7 +13,7 @@ const config = {
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'uploads/andrei1058.jpg',
-  organizationName: 'andrei1058', // Usually your GitHub org/user name.
+  organizationName: 'andrei1058.dev', // Usually your GitHub org/username.
   projectName: 'docs', // Usually your repo name.
 
   presets: [

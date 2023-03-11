@@ -62,7 +62,6 @@ If you have issues with the addon, it will probably be better to go to any suppo
 - [AdventureMode - Gamemode change utility for BedWars1058](https://polymart.org/resource/3296/) - by NotLew_x
 - [BedSteal - New Gamemode for BedWars1058](https://polymart.org/resource/3575/) - by Endern, Zuyte and smaks
 
-
 ## Pre-made Setups
 
 You can download some Pre-made Setups from here.

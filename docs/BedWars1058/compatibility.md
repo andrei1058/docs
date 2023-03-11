@@ -39,4 +39,3 @@ We recommend using Java 17 or newer when possible
 - PerWorldPlugins is not supported and don't ask to add support for it. Just don't use it PLEASE!
 - Multiverse or any world manager. You must disable the world managment for arena worlds.
 - This plugin uses NMS code; spigot forks without NMS are not supported.
-- 

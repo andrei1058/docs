@@ -7,7 +7,9 @@ If you want different prices per arena group you should use a server as a single
 
 Make sure you're using the right material name when changing item materials in config.
 
-For a list of materials, sounds, and potions, check the [resources page](resrouces)
+For a list of materials, sounds, and potions, check the [resources page](resrouces).
+
+The following types of armor are supported: Leather, Chainmail, Iron, Diamond, Golden and Netherite. Please refer to the item list of the version you are using for the correct item names.
 
 ```yaml
 # This category contains various settings
