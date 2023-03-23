@@ -20,16 +20,34 @@ scoreboard:
     - "&6{server_ip}"
 ```
 
+### Player list configuration
+It is possible to add multiple lines to the header and footer of the player list by adding more lines as shown below.
+Make sure to add `|-` on the first row.
+```yaml
+format-sb-tab-header:
+  lobby: |-
+    just put anything.
+    &bplaying on: &a{serverIp}
+    it
+    can
+    go
+    quite
+    far 
+    down
+    And you dont need to use quotes like this: ""
+```
+![scoreboard_example_multiline.png](/uploads/scoreboard_example_multiline.png)
+All placeholders that are listed under [Global Placeholders](language-configuration#global-placeholders) are supported.
+
 ### Scoreboard placeholders
 
 #### Team placeholers:
-##### AKA "PLACEHOLDERS NOT WORKING"
 Using team placeholders is easy. Let's suppose that you have a team called `Bread`, then your team's placeholders are:
 - `{TeamBreadColor}` - shows the team color.
 - `{TeamBreadName}` - shows the team name.
 - `{TeamBreadStatus}` - shows the team status. (alive, dead etc.)
 
-A easier alternative is using `{team}` placeholder which will take the team format from the message at path: `format-sb-team-generic` (by default {TeamColor}{TeamLetter}&f {TeamName}: {TeamStatus}). This placeholder can be used in multiple lines and it will iterate the team list of the arena and will asign it a team. When the placeholder is used more than team list size the scoreboard line with {team} in it will be skipped.
+An easier alternative is using `{team}` placeholder which will take the team format from the message at path: `format-sb-team-generic` (by default {TeamColor}{TeamLetter}&f {TeamName}: {TeamStatus}). This placeholder can be used in multiple lines and it will iterate the team list of the arena and will asign it a team. When the placeholder is used more than team list size the scoreboard line with {team} in it will be skipped.
 
 ##### Upgrade placeholders:
 Upgrades are divided in tiers each upgrade will have a corresponding line containing the cost and currency and the tier color, this makes the tier show up as purchased or not. 
