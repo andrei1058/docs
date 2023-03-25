@@ -7,17 +7,17 @@ The `upgrades2.yml` file contains the configuration for the Upgrades NPC.
 
 :::note
 
-For a list of materials, sounds, and potions, check the [resources page](https://wiki.andrei1058.dev/docs/BedWars1058/resources)
+For a list of materials, sounds, and potions, check the [resources page](../resources)
 
 :::
 
 ### Upgrades Main Menu
 The default path is `default-upgrades-settings`.
 This is a list of content to be displayed in the GUI. 
-`default` stands for [arena group](https://wiki.andrei1058.dev/docs/BedWars1058/setup/arena-groups), so if your [arena group](https://wiki.andrei1058.dev/docs/BedWars1058/setup/arena-groups) doesn't have a custom `<groupName>-upgrades-settings` it will use the default one.
+`default` stands for [arena group](../setup/arena-groups), so if your [arena group](../setup/arena-groups) doesn't have a custom `<groupName>-upgrades-settings` it will use the default one.
 You can use a category or an element in multiple upgrade menus.
 
-When creating custom menus you should create the [elements](https://wiki.andrei1058.dev/docs/BedWars1058/configuration/upgrades#upgrade-element) and then add them to the correct `menu-content` for the arena group you wish to change.
+When creating custom menus you should create the [elements](../configuration/upgrades#upgrade-element) and then add them to the correct `menu-content` for the arena group you wish to change.
 ```yaml
 default-upgrades-settings:
   menu-content:
@@ -39,8 +39,8 @@ default-upgrades-settings:
 The following steps are also applicable to ``category-<name>`` (custom shop categories) and ``upgrade-<name>`` (custom upgrades). Make sure to follow the correct naming method. When creating arena group specific upgrades make you add them under `menu-content` within the newly created `<name>-upgrade-settings` configuration.
 
 :::
-1. First of all make sure to read the example above. When creating a custom menu you can replace `default` with the name of your [arena group](https://wiki.andrei1058.dev/docs/BedWars1058/setup/arena-groups) 
-2. Create a new line in `upgrades.yml` and write `<groupName>-upgrades-settings:` where `<groupName>` is your [arena group](https://wiki.andrei1058.dev/docs/BedWars1058/setup/arena-groups) (example: solo, doubles).
+1. First of all make sure to read the example above. When creating a custom menu you can replace `default` with the name of your [arena group](../setup/arena-groups) 
+2. Create a new line in `upgrades.yml` and write `<groupName>-upgrades-settings:` where `<groupName>` is your [arena group](../setup/arena-groups) (example: solo, doubles).
 3. Now add elements to your category like wrote above, under `menu-content`. It is best to copy paste the default settings and make changes as needed.
 4. Finally, you select a slot to put the upgrade button in. This number is behind the ``menu-content`` item and seperated by `,` (comma).
 
