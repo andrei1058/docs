@@ -4,11 +4,20 @@ title: Upgrades Configuration
 sidebar_position: 3.9
 ---
 The `upgrades2.yml` file contains the configuration for the Upgrades NPC.
+
+:::note
+
+For a list of materials, sounds, and potions, check the [resources page](https://wiki.andrei1058.dev/docs/BedWars1058/resources)
+
+:::
+
 ### Upgrades Main Menu
 The default path is `default-upgrades-settings`.
 This is a list of content to be displayed in the GUI. 
-`default `stands for [arena group](https://wiki.andrei1058.dev/docs/BedWars1058/setup/arena-groups), so if your [arena group](https://wiki.andrei1058.dev/docs/BedWars1058/setup/arena-groups) doesn't have a custom `<groupName>-upgrades-settings` it will use the default one.
+`default` stands for [arena group](https://wiki.andrei1058.dev/docs/BedWars1058/setup/arena-groups), so if your [arena group](https://wiki.andrei1058.dev/docs/BedWars1058/setup/arena-groups) doesn't have a custom `<groupName>-upgrades-settings` it will use the default one.
 You can use a category or an element in multiple upgrade menus.
+
+When creating custom menus you should create the [elements](https://wiki.andrei1058.dev/docs/BedWars1058/configuration/upgrades#upgrade-element) and then add them to the correct `menu-content` for the arena group you wish to change.
 ```yaml
 default-upgrades-settings:
   menu-content:
@@ -24,10 +33,16 @@ default-upgrades-settings:
   # trap queue limit
   trap-queue-limit: 3
 ```
-**Creating a custom menu for your arena group:**
-1. First of all read the above text because you need to understand how it works.
+#### Creating a custom menu for your arena group:
+:::note
+
+The following steps are also applicable to ``category-<name>`` (custom shop categories) and ``upgrade-<name>`` (custom upgrades). Make sure to follow the correct naming method. When creating arena group specific upgrades make you add them under `menu-content` within the newly created `<name>-upgrade-settings` configuration.
+
+:::
+1. First of all make sure to read the example above. When creating a custom menu you can replace `default` with the name of your [arena group](https://wiki.andrei1058.dev/docs/BedWars1058/setup/arena-groups) 
 2. Create a new line in `upgrades.yml` and write `<groupName>-upgrades-settings:` where `<groupName>` is your [arena group](https://wiki.andrei1058.dev/docs/BedWars1058/setup/arena-groups) (example: solo, doubles).
-3. Now add elements to your category like wrote above, under `menu-content`.
+3. Now add elements to your category like wrote above, under `menu-content`. It is best to copy paste the default settings and make changes as needed.
+4. Finally, you select a slot to put the upgrade button in. This number is behind the ``menu-content`` item and seperated by `,` (comma).
 
 
 *Result:*
@@ -49,7 +64,7 @@ solo-upgrades-settings:
 ---
 
 ### Upgrades Category
-Category sections are identified with `category-` + name. Example: `category-enchant`.
+Category sections are identified with `category-<name>`. Example: `category-enchant`.
 It requires the following attributes:
 ```yaml
 category-example-1:
@@ -72,13 +87,12 @@ category-example-1:
   - separator-name5,1,2,3 #Add multiple numbers separated by comma to put the element in multiple slots.
   
 ```
-For a list of materials, sounds, and potions, check the [resources page](https://wiki.andrei1058.dev/docs/BedWars1058/resources)
 ---
-
 ### Upgrade Element
-Upgrade elements are the most important thing. They define what an upgrade does.
-Upgrade  sections are identified with `upgrade-` + name. Example: `upgrade-enchant-1`.
-Required attributes:
+Upgrade elements are the most important as they define what an upgrade does.
+Upgrade sections are identified with `upgrade-<name>`. Example: `upgrade-enchant-1`.
+Within 1 upgrade path you can add multiple tiers, theirs can be added by adding a new element with `tier-x` and replacing `x` with the correct number.
+It requires the following attributes:
 ```yaml
 upgrade-enchant-1:
   # Even if your upgrade element does not have tiers, or better, it has a single tier
