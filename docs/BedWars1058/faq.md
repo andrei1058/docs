@@ -31,6 +31,8 @@ In most cases it means that you are running an unsupported version, check: [comp
 When a message is displayed like ``this version of the Java Runtime only recognizes class file versions up to 52.0`` this means you are running an outdated version of Java. Update to a more recent version of java as described here: [Recommended Java Versions](compatibility#recommended-java-versions).
 Note: If you are running a 1.8 server you might have to disable use-native-transport in server.properties in order for the server to start.
 
+### I am stuck at spawn when joining the lobby.
+Since 1.17 minecraft has changed the void height and because of the void-tp feature in BedWars lobbies and arenas it will check if your Y-level is smaller than 0. To change this search for `lobby-settings` and change `void-height` to the appropriate level for your server version. You can also completely disable the void-tp feature.
 
 ### Discord
 Couldn't find an answer? Join my <a href= "https://discord.gg/XdJfN2X"><img src="https://discordapp.com/api/guilds/201345265821679617/widget.png"/></a>
