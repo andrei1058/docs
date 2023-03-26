@@ -61,7 +61,7 @@ When adding a tier to `upgrades2.yml` you should add another line in each of the
 ##### Global placeholders:
 - `{date}` - shows the date with the player's date format taken from his language file.
 - `{level}` - shows the player level. Does not auto-refresh.
-- `{levelUnformated}` - shows the plain player level without formatting. Does not auto-refresh.
+- `{levelUnformatted}` - shows the plain player level without formatting. Does not auto-refresh.
 - `{currentXp}` - shows the player's current xp. Does not auto-refresh.
 - `{requiredXp}` - shows the required xp to rankup. Does not auto-refresh.
 - `{progress}` - shows the progress bar. Does not auto-refresh.
@@ -69,14 +69,14 @@ When adding a tier to `upgrades2.yml` you should add another line in each of the
 - `{kills}` - shows the player's total kills (when not used in game). Does not auto-refresh.
 - `{player}` - shows the player name.
 - `{deaths}` - shows the player's total deaths (when not used in game). Does not auto-refresh.
-- `{coins}` - shows the player's money (Vault).
+- `{money}` - shows the player's money (Vault).
 - `{finalKills}` - show player's total final kills (when not used in game). Does not auto-refresh.
 - `{finalDeaths}` - show player's total final deaths (when not used in game). Does not auto-refresh.
 - `{bedsDestroyed}` - show total beds destroyed by player (when not used in game). Does not auto-refresh.
 - `{wins}` - show the number of games won by player.
 - `{on}` - show the number of players on the server (when not used in game).
-- `{server_ip}` - shows the server IP taken from config.yml.
-- `{server}` - shows the server MOTD from server.properties
+- `{serverIp}` - shows the server IP taken from config.yml.
+- `{server}` - shows the server ID taken from config.yml.
 - `{version}` - shows the plugin version.
 
 ##### In Game placeholders:
