@@ -3,11 +3,16 @@ sidebar_label: Shop Config
 title: Shop Configuration
 sidebar_position: 3.5
 ---
+
+:::note
+
 If you want different prices per arena group you should use a server as a single arena (BUNGEE serverType).
 
-Make sure you're using the right material name when changing item materials in config.
+:::
 
-For a list of materials, sounds, and potions, check the [resources page](resrouces).
+Make sure you're using the right material name when changing item materials in this config. If you want to make [custom categories](shop#how-to-create-items-like-the-armor-category). scroll to the bottom of the page.
+
+For a list of materials, sounds, and potions, check the [resources page](../resources).
 
 The following types of armor are supported: Leather, Chainmail, Iron, Diamond, Golden and Netherite. Please refer to the item list of the version you are using for the correct item names.
 
