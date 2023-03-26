@@ -346,6 +346,15 @@ allowed-commands:
 - bw
 - leave
 
+# This section allows you to change the void-tp feature. With minecraft 1.17 and above they changed the void height to -64. 
+# Here you can change the Y level the plugin checks to tp you back to spawn.
+# You can also completely disable void-tp in the lobby.
+lobby-settings:
+  # Enable disable void TP.
+  void-tp: true
+  # Void Y level. If a player gets below this level they will tp to spawn.
+  void-height: 0
+
 # This configuration section contains options abut the items that you receive when you join the server.
 # Ignore this configuration section if your serverType is BUNGEE.
 # You can always remove or add new items under this category. They can execute commands.

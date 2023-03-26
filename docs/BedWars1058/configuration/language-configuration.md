@@ -20,16 +20,34 @@ scoreboard:
     - "&6{server_ip}"
 ```
 
+### Player list configuration
+It is possible to add multiple lines to the header and footer of the player list by adding more lines as shown below.
+Make sure to add `|-` on the first row.
+```yaml
+format-sb-tab-header:
+  lobby: |-
+    just put anything.
+    &bplaying on: &a{serverIp}
+    it
+    can
+    go
+    quite
+    far 
+    down
+    And you dont need to use quotes like this: ""
+```
+![scoreboard_example_multiline.png](/uploads/scoreboard_example_multiline.png)
+All placeholders that are listed under [Global Placeholders](language-configuration#global-placeholders) are supported.
+
 ### Scoreboard placeholders
 
 #### Team placeholers:
-##### AKA "PLACEHOLDERS NOT WORKING"
 Using team placeholders is easy. Let's suppose that you have a team called `Bread`, then your team's placeholders are:
 - `{TeamBreadColor}` - shows the team color.
 - `{TeamBreadName}` - shows the team name.
 - `{TeamBreadStatus}` - shows the team status. (alive, dead etc.)
 
-A easier alternative is using `{team}` placeholder which will take the team format from the message at path: `format-sb-team-generic` (by default {TeamColor}{TeamLetter}&f {TeamName}: {TeamStatus}). This placeholder can be used in multiple lines and it will iterate the team list of the arena and will asign it a team. When the placeholder is used more than team list size the scoreboard line with {team} in it will be skipped.
+An easier alternative is using `{team}` placeholder which will take the team format from the message at path: `format-sb-team-generic` (by default {TeamColor}{TeamLetter}&f {TeamName}: {TeamStatus}). This placeholder can be used in multiple lines and it will iterate the team list of the arena and will asign it a team. When the placeholder is used more than team list size the scoreboard line with {team} in it will be skipped.
 
 ##### Upgrade placeholders:
 Upgrades are divided in tiers each upgrade will have a corresponding line containing the cost and currency and the tier color, this makes the tier show up as purchased or not. 
@@ -43,7 +61,7 @@ When adding a tier to `upgrades2.yml` you should add another line in each of the
 ##### Global placeholders:
 - `{date}` - shows the date with the player's date format taken from his language file.
 - `{level}` - shows the player level. Does not auto-refresh.
-- `{levelUnformated}` - shows the plain player level without formatting. Does not auto-refresh.
+- `{levelUnformatted}` - shows the plain player level without formatting. Does not auto-refresh.
 - `{currentXp}` - shows the player's current xp. Does not auto-refresh.
 - `{requiredXp}` - shows the required xp to rankup. Does not auto-refresh.
 - `{progress}` - shows the progress bar. Does not auto-refresh.
@@ -51,14 +69,14 @@ When adding a tier to `upgrades2.yml` you should add another line in each of the
 - `{kills}` - shows the player's total kills (when not used in game). Does not auto-refresh.
 - `{player}` - shows the player name.
 - `{deaths}` - shows the player's total deaths (when not used in game). Does not auto-refresh.
-- `{coins}` - shows the player's money (Vault).
+- `{money}` - shows the player's money (Vault).
 - `{finalKills}` - show player's total final kills (when not used in game). Does not auto-refresh.
 - `{finalDeaths}` - show player's total final deaths (when not used in game). Does not auto-refresh.
 - `{bedsDestroyed}` - show total beds destroyed by player (when not used in game). Does not auto-refresh.
 - `{wins}` - show the number of games won by player.
 - `{on}` - show the number of players on the server (when not used in game).
-- `{server_ip}` - shows the server IP taken from config.yml.
-- `{server}` - shows the server MOTD from server.properties
+- `{serverIp}` - shows the server IP taken from config.yml.
+- `{server}` - shows the server ID taken from config.yml.
 - `{version}` - shows the plugin version.
 
 ##### In Game placeholders:
