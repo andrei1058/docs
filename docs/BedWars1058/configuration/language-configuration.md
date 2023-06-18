@@ -92,6 +92,7 @@ When adding a tier to `upgrades2.yml` you should add another line in each of the
 - `{time}` - shows the time when the Next Event will happen.
 - `{group}` - shows the arena group in the waiting lobby.
 - `{map_name}` - the map you're playing on (for arena display name use {map}).
+- `{team} and {teamColor}` - shows the player team and its corresponding colors on the teleporter.
 
 ##### Kill/Bed-Destroy Message placeholders:
 - `{PlayerColor}` - shows the player's team color.
