@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'uploads/andrei1058.jpg',
+  favicon: 'https://api.cxstudios.xyz/cdn/bedwars1058.png', // Bedwars1058 opensource logo
   organizationName: 'andrei1058.dev', // Usually your GitHub org/username.
   projectName: 'docs', // Usually your repo name.
 
@@ -48,7 +48,7 @@ const config = {
         title: 'andrei1058 wiki',
         logo: {
           alt: 'andrei1058',
-          src: 'uploads/andrei1058.jpg',
+          src: 'https://api.cxstudios.xyz/cdn/bedwars1058.png',
         },
         items: [
           {
