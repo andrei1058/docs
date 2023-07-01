@@ -107,6 +107,14 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/andrei1058',
               },
+              {
+                label: 'Maven',
+                href: 'https://wiki.andrei1058.dev/docs/BedWars1058/developers/maven',
+              },
+              {
+                label: 'Javadocs',
+                href: 'https://javadocs.andrei1058.dev/BedWars1058/',
+              },
             ],
           },
         ],
