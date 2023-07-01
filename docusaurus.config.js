@@ -52,6 +52,11 @@ const config = {
         },
         items: [
           {
+            href: 'https://wiki.andrei1058.dev/',
+            label: 'Home',
+            position: 'left',
+          },
+          {
             type: 'doc',
             docId: 'BedWars1058/home',
             position: 'left',
