@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'andrei1058 wiki',
-  tagline: 'Dinosaurs are cool',
+  title: 'Andrei1058 Wiki',
+  tagline: 'Find anykind of information about BedWars1058 plugin',
   url: 'https://wiki.andrei1058.dev',
   baseUrl: '/',
   onBrokenLinks: 'warn',
@@ -45,17 +45,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'andrei1058 wiki',
+        title: 'Andrei1058 Wiki',
         logo: {
           alt: 'andrei1058',
           src: 'uploads/bedwars1058.png',
         },
         items: [
-          {
-            href: 'https://wiki.andrei1058.dev/',
-            label: 'Home',
-            position: 'left',
-          },
           {
             type: 'doc',
             docId: 'BedWars1058/home',
@@ -118,7 +113,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Andrei1058.dev | Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Andrei1058.dev | All rights reserved.`,
       },
       "colorMode": {
         "defaultMode": "dark",
