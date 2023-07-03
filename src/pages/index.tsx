@@ -22,12 +22,12 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`andrei1058 wiki`}
+      title={`Andrei1058 Wiki`}
       description="Documentation">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
-          <p style={{textAlign: "center"}}>Select a project above to view it's wiki.</p>
+          <p style={{textAlign: "center"}}>Select a plugin above to view it's wiki.</p>
       </main>
     </Layout>
   );
