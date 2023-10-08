@@ -23,6 +23,7 @@ If you have issues with the addon, it will probably be better to go to any suppo
 - [Spectator Options - Add useful settings for spectators!](https://polymart.org/resource/1916/) - by CubeCrafter72
 
 ### Free Addons
+- [Spectate Addon - Implements the /spectate <player> command like big servers!](https://polymart.org/resource/4496/) - by AgentNoobff
 - [Spectator & Play-Again Addon {Menu}](https://polymart.org/resource/1937/) - by StudioBeam Development
 - [Arena Start Message - Allows you to send Arena Join Notification to the players in lobby](https://polymart.org/resource/1880/) - by StudioBeam Development
 - [Compass - Team Tracker, Quick Communications, Multi-language support](https://spigotmc.org/resources/91537/) - by Mher
@@ -79,8 +80,7 @@ You can download some Pre-made Setups from here.
 - by ChillingWay - [【🪐】SOLAR BEDWARS SETUP 【🪐】 - BedWars Solar Custom Premade Setup](https://polymart.org/resource/4170/)
 
 ### Free Setups
+
 - by BijjuXD - [🔥FREE BEDWARS SETUP 🔥 - The BedWars1058 Premade Setup!](https://polymart.org/r/4343/)
-- by RinDevn - [BedWars Setup - Better Performance - Better Features](https://polymart.org/resource/4315/)
 - by LunoXx - [Bedwars Setup - Bedwars Server Setup Using Bedwars1058 | Free !!!](https://polymart.org/resource/2810/)
 - by AlexRF - [HQ 🌟 BED WARS SETUP - The Best BedWars Setup Free available on the Market!](https://polymart.org/resource/4292/)
-
