@@ -15,6 +15,7 @@ You can download it from [Polymart](https://polymart.org/resource/1152/) and [Sp
 
 ## Server software support
 BedWars1058 is made for [spigot](https://www.spigotmc.org/), but it works also on spigot forks like [PaperMC](https://papermc.io/downloads).
+It is compatible with master-slave systems, bungee old school servers, multi-arena and shared servers.
 
 ### Supported versions
 * **1.8.8** (v1_8_R3)
