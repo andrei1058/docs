@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'uploads/bedwars1058.png',
+  favicon: 'uploads/logo.png',
   organizationName: 'andrei1058.dev', // Usually your GitHub org/username.
   projectName: 'docs', // Usually your repo name.
 
@@ -45,10 +45,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'andrei1058 wiki',
+        title: 'andrei1058 Docs',
         logo: {
           alt: 'andrei1058',
-          src: 'uploads/bedwars1058.png',
+          src: 'uploads/logo.png',
         },
         items: [
           {
