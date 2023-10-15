@@ -1,9 +1,8 @@
 <h3>Introduction</h3>
 
-* [Home](home)
+* [About](about)
 * [Features](features)
 * [Frequently Asked Questions](faq)
-* [Compatibility](compatibility)
 
 <h3>Setup</h3>
 

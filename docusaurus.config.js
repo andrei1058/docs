@@ -58,7 +58,7 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'BedWars1058/home',
+            docId: 'BedWars1058/about',
             position: 'left',
             label: 'BedWars1058',
           },
