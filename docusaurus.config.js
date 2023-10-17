@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Andrei1058 Wiki',
+  title: 'andrei1058 Wiki',
   tagline: 'Find anykind of information about BedWars1058 plugin',
   url: 'https://wiki.andrei1058.dev',
   baseUrl: '/',
@@ -113,7 +113,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Andrei1058.dev | All rights reserved.`,
+        copyright: `Copyright © ${new Date().getFullYear()} andrei1058.dev | All rights reserved.`,
       },
       "colorMode": {
         "defaultMode": "dark",
