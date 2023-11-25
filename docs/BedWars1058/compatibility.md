@@ -1,5 +1,5 @@
 ---
-sidebar_label: Compatability
+sidebar_label: Compatibility
 sidebar_position: 1.3
 ---
 ## Server Software
