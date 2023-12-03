@@ -16,23 +16,17 @@ slug: /compatibility/
 
 | Status | Mc version          | Package name | Minimum Java Version | End of Support                 |
 |--------|---------------------|--------------|----------------------|--------------------------------|
-| 🟩     | 1.20.2              | v1_20_R2     | 17                   | Supported                      |
-| 🟨     | 1.20                | v1_20_R1     | 17                   | Scheduled for removal in 2024. |
-| 🟩     | 1.19.3              | v1_19_R2     | 17                   | Supported                      |
-| 🟩     | 1.18.2              | v1_18_R2     | 17                   | Supported                      |
-| 🟥     | ~~1.18.1~~          | ~~v1_18_R1~~ | ~~17~~               | Removed                        |
-| 🟨     | 1.17.1              | v1_17_R1     | 17                   | Scheduled for removal in 2024. |
-| 🟩     | 1.16.5              | v1_16_R3     | 11                   | Supported                      |
-| 🟥     | ~~1.16.3~~          | ~~v1_16_R2~~ | ~~11~~               | Removed in v22.7               |
-| 🟥     | ~~1.16~~            | ~~v1_16_R1~~ | ~~11~~               | Removed in v22.7               |
-| 🟥     | ~~1.15 - 1.15.2~~   | ~~v1_15_R1~~ | ~~11~~               | Removed in v22.7               |
-| 🟥     | ~~1.14 - 1.14.2~~   | ~~v1_14_R1~~ | ~~11~~               | Removed in v22.7               | 
-| 🟥     | ~~1.13.1 - 1.13.2~~ | ~~v1_13_R2~~ | ~~8~~                | Removed in v22.7               | 
-| 🟩     | 1.12.2              | v1_12_R1     | 11                   | Supported                      |
-| 🟥     | ~~1.11~~            | ~~v1_11_R1~~ | ~~8~~                | Removed in v22.7               |
-| 🟥     | ~~1.10 - 1.10.2~~   | ~~v1_10_R1~~ | ~~8~~                | Removed in v22.7               |
-| 🟥     | ~~1.9.4~~           | ~~v1_9_R2~~  | ~~8~~                | Removed in v22.7               |
-| 🟨     | 1.8.8               | v1_8_R3      | 11                   | Scheduled for removal in 2024. |
+| 🟩     | 1.20.2              | 17                   | Supported                      |
+| 🟨     | 1.20 - 1.20.1       | 17                   | Scheduled for removal in 2024. |
+| 🟩     | 1.19.3 - 1.19.4     | 17                   | Supported                      |
+| 🟩     | 1.18.2              | 17                   | Supported                      |
+| 🟥     | ~~1.18.1~~          | ~~17~~               | Removed                        |
+| 🟨     | 1.17 - 1.17.1       | 17                   | Scheduled for removal in 2024. |
+| 🟩     | 1.16.5              | 11                   | Supported                      |
+| 🟥     | ~~1.13.1 - 1.16.3~~ | ~~8~~                | Removed in v22.7               | 
+| 🟩     | 1.12.2              | 11                   | Supported                      |
+| 🟥     | ~~1.9.4 - 1.11~~    | ~~8~~                | Removed in v22.7               |
+| 🟨     | 1.8.8               | 11                   | Scheduled for removal in 2024. |
 
 
 
