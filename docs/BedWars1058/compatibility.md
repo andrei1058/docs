@@ -6,14 +6,12 @@ sidebar_position: 1.3
 BedWars1058 is made for [spigot](https://www.spigotmc.org/) but it works also on spigot forks like [PaperMC](https://papermc.io/downloads).
 
 ### Supported versions
-* **1.8.8** (v1_8_R3) --> BW1058 23.2.1 is *suggested*
-* **1.12.2** (v1_12_R1) --> BW1058 23.2.1 is *suggested*
-* **1.16.5** (v1_16_R3) --> BW1058 23.2.1 is *suggested*
-* **1.17.1** (v1_17_R1) --> BW1058 23.2.1 is *suggested*
-* **1.18.2** (v1_18_R2) --> BW1058 23.2.1 is *suggested*
-* **1.19.3** (v1_19_R2) --> BW1058 23.2.1 is *suggested*
-* **1.20.1** (1_20_R1) --> BW1058 23.11.X or higher
-* **1.20.2** (1_20_R1) --> BW1058 23.11.X or higher
+* **1.8.8** (v1_8_R3)
+* **1.12.2** (v1_12_R1)
+* **1.16.5** (v1_16_R3)
+* **1.17.1** (v1_17_R1)
+* **1.18.2**
+* **1.19.3 - 1.20.2**
 ### Supported versions that have been removed
 These versions are only supported up to plugin version 22.3.4, and have been removed in bedwars1058 versions 22.7 and newer 
 * **1.9.4** (v1_9_R2)
