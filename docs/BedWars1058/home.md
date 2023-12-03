@@ -4,16 +4,17 @@ slug: /BedWars1058/
 sidebar_position: 0
 sidebar_label: Home
 ---
+### About BedWars1058
+BedWars1058 is a Minecraft Server Plugin launched for the first time in 2017 for a limited audience
+and released as open source in 2020. The author and current maintainer is [andrei1058](https://github.com/andrei1058), 
+but there is consistent support from the community as well. 
+[Click here to see the contributors](https://github.com/andrei1058/BedWars1058/graphs/contributors).
 
-[![Discord](https://img.shields.io/discord/201345265821679617)](https://discord.gg/XdJfN2X/)
-[![Rating](https://img.shields.io/spiget/stars/97320)](https://www.spigotmc.org/resources/97320/)
-[![Version](https://img.shields.io/spiget/version/97320)](https://www.spigotmc.org/resources/97320/)
-[![Tested](https://img.shields.io/spiget/tested-versions/97320)](https://www.spigotmc.org/resources/97320/)
-[![Servers](https://img.shields.io/bstats/servers/1885)](https://bstats.org/plugin/bukkit/BedWars1058/)
-[![Downloads](https://img.shields.io/polymart/downloads/1152)](https://polymart.org/resource/1152/)
 
-Welcome to the BedWars1058 wiki. Here you will find a complete set of documentation for the plugin, outlining how to install, setup, configure and effectively use BedWars1058.
+### Where to download
+If you'd like to use this resource check [compatibility](compatibility.md) first and then [getting started](setup/plugin-installation.md).
 
-You can download it from: 
-* [SpigotMC](https://www.spigotmc.org/resources/97320/)
+Download links:
 * [Polymart](https://polymart.org/resource/1152/)
+* [SpigotMC](https://www.spigotmc.org/resources/97320/)
+* [BuiltByBit](https://builtbybit.com/resources/35838/)
