@@ -6,10 +6,13 @@ sidebar_position: 1.3
 BedWars1058 is made for [spigot](https://www.spigotmc.org/) but it works also on spigot forks like [PaperMC](https://papermc.io/downloads).
 
 ### Supported versions
-* **1.8.8** (v1_8_R3)
-* **1.12.2** (v1_12_R1)
-* **1.16.5** (v1_16_R3)
-* **1.17.1** (v1_17_R1)
+ *Java 11+*
+* **1.8.8**
+* **1.12.2**
+ *Java 17+* add "-DPaper.IgnoreJavaVersion=true" (before -jar)
+* **1.16.5**
+* **1.17.1**
+ *Java 17+*
 * **1.18.2**
 * **1.19.3 - 1.20.2**
 ### Supported versions that have been removed
