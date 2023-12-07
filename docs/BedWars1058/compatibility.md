@@ -16,8 +16,8 @@ slug: /compatibility/
 
 | Status | Mc version          |  Minimum Java Version | End of Support                 |
 |--------|---------------------|----------------------|--------------------------------|
-| 🟪     | 1.20.3              | 17                   | Coming Soon                    |
-| 🟩     | 1.20.2              | 17                   | Supported                      |
+| 🟪     | 1.20.4              | 17                   | Coming Soon                    |
+| 🟩     | 1.20.2 - 1.20.3     | 17                   | Supported                      |
 | 🟨     | 1.20 - 1.20.1       | 17                   | Scheduled for removal in 2024. |
 | 🟩     | 1.19.3 - 1.19.4     | 17                   | Supported                      |
 | 🟩     | 1.18.2              | 17                   | Supported                      |
