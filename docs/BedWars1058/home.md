@@ -14,7 +14,8 @@ but there is consistent support from the community as well.
 ### Where to download
 If you'd like to use this resource check [compatibility](compatibility.md) first and then [getting started](setup/plugin-installation.md).
 
-Download links:
+Download your copy at:
 * [Polymart](https://polymart.org/resource/1152/)
 * [SpigotMC](https://www.spigotmc.org/resources/97320/)
 * [BuiltByBit](https://builtbybit.com/resources/35838/)
+* [Modrinth](https://modrinth.com/plugin/bedwars1058)
