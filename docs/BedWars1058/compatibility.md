@@ -16,7 +16,9 @@ slug: /compatibility/
 
 | Status | Mc version          | Package name | Minimum Java Version | End of Support                 |
 |--------|---------------------|--------------|----------------------|--------------------------------|
-| 🟩     | 1.20.2              | v1_20_R2     | 17                   | Supported                      |
+| 🟩     | 1.20.4              | v1_20_R4     | 17                   | Supported                      |
+| 🟩     | 1.20.3              | v1_20_R3     | 17                   | Supported                      |
+| 🟨     | 1.20.2              | v1_20_R2     | 17                   | Scheduled for removal in 2024. |
 | 🟨     | 1.20                | v1_20_R1     | 17                   | Scheduled for removal in 2024. |
 | 🟩     | 1.19.3              | v1_19_R3     | 17                   | Supported                      |
 | 🟨     | 1.19.1              | v1_19_R2     | 17                   | Scheduled for removal in 2024. |
