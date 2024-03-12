@@ -24,4 +24,4 @@ Just install the Party and Friends plugin on your Bungeecord or Velocity Server,
 If using Redis you will also need to install and configure [Redis Bungee/Velocity](https://www.spigotmc.org/resources/87700/)
 
 ### Party & Friends for Bungeecord (Free):
-Just install the Party and Friends plugin on your Bungeecord or Velocity Server, and also install the [Party API](https://www.spigotmc.org/resources/39751/) and [Friends API](https://www.spigotmc.org/resources/12597/)on the arena and lobby (Bw Proxy) servers. And follow the setup to link the Party API to bungee. A SQL server is required.
+Just install the Party and Friends plugin on your Bungeecord or Velocity Server, and also install the [Party API](https://www.spigotmc.org/resources/39751/) and [Friends API](https://www.spigotmc.org/resources/12597/) on the arena and lobby (Bw Proxy) servers. And follow the setup to link the Party API to bungee. A SQL server is required.
