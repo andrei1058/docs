@@ -6,7 +6,7 @@ sidebar_position: 3.3
 ## Chat
 **BedWars1058** is providing [Vault](https://dev.bukkit.org/projects/vault) support since the first version ever released. 
 
-You can have rank prefixies and suffixies in chat by adding [Vault](https://dev.bukkit.org/projects/vault) near your permissions plugin  like [PowerfulPerms](https://www.spigotmc.org/resources/powerfulperms.8143/), [PermissionsEx](https://dev.bukkit.org/projects/permissionsex) and any other permissions plugin based on [Vault](https://dev.bukkit.org/projects/vault).
+You can have rank prefixies and suffixies in chat by adding [Vault](https://dev.bukkit.org/projects/vault) near your permissions plugin like [LuckPerms](https://luckperms.net), [PermissionsEx](https://dev.bukkit.org/projects/permissionsex) and any other permissions plugin based on [Vault](https://dev.bukkit.org/projects/vault).
 
 
 
@@ -29,7 +29,7 @@ chat:
 ## Economy
 **BedWars1058** is also providing Vault Economy plugins support since the first version ever released.
 
-You can use all the Economy plugins with [Vault](https://dev.bukkit.org/projects/vault) support like [Coins](https://www.spigotmc.org/resources/coins-1-8-x-1-12-x-mysql-sqlite-api.48536/) and any other economy plugins based on [Vault](https://dev.bukkit.org/projects/vault).
+You can use all the Economy plugins with [Vault](https://dev.bukkit.org/projects/vault) support like [Coins](https://www.spigotmc.org/resources/48536/) and any other economy plugins based on [Vault](https://dev.bukkit.org/projects/vault).
 
 ### Placeholders
 BedWars total money placeholder: {money}
