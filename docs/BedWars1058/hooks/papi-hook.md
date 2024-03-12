@@ -7,7 +7,7 @@ sidebar_position: 3.2
 
 If you want Per Arena Group Stats Placeholder, you can use I6y's [GroupStats](https://polymart.org/resource/3184/) Addon for Per Arena Group Stats Placeholders. 
 
-If you need help with using [PlaceholderAPI](https://www.spigotmc.org/resources/6245/) join their [Discord](https://img.shields.io/discord/164280494874165248).
+If you need help with [PlaceholderAPI](https://www.spigotmc.org/resources/6245/) Plugin join their [Discord](https://img.shields.io/discord/164280494874165248).
 ## Player Level
 Get the player level. FORMATTED.
 
