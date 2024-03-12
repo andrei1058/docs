@@ -20,19 +20,15 @@ If you have issues with the addon, it will probably be better to go to any suppo
 - [LuckyBlock NTD - Add LuckyBlocks to your ingame spawners](https://www.spigotmc.org/resources/94872/) - by danirod12
 - [DiscordStats for BedWars1058 - Get the stats of your players on discord!](https://polymart.org/resource/1889/) - by STN-Studios
 - [Quests - A powerful quest system based for BedWars1058.](https://polymart.org/resource/1802) - by reussy
-- [Spectator Options - Add useful settings for spectators!](https://polymart.org/resource/1916/) - by CubeCrafter72
 
 ### Free Addons
-- [Spectate Addon - Implements the /spectate [player] command like big servers!](https://polymart.org/resource/4496/) - by AgentNoobff
-- [Spectator & Play-Again Addon {Menu}](https://polymart.org/resource/1937/) - by StudioBeam Development
-- [Arena Start Message - Allows you to send Arena Join Notification to the players in lobby](https://polymart.org/resource/1880/) - by StudioBeam Development
-- [Compass - Team Tracker, Quick Communications, Multi-language support](https://www.spigotmc.org/resources/91537/) - by Mher
-- [Sponge - Playing cool effect when placing a sponge](https://www.spigotmc.org/resources/93540/) - by Mher
-- [AntiDrop - Players Not Allow To Drop The Items In The Void](https://www.spigotmc.org/resources/86391/) - by Mher
 - [Team Selector - Select your color before the game starts](https://www.spigotmc.org/resources/60438/) - by andrei1058
 - [BedWarsProxy - Arena selector for bungee scalable mode](https://www.spigotmc.org/resources/66642/) - by andrei1058
 - [Reward Commands - Execute commands in certain moments of the game](https://www.spigotmc.org/resources/55381/) - by andrei1058
-- [Pop-up Towers - Adds an animated pop-up tower to BedWars1058!](https://www.spigotmc.org/resources/83661/) - by KimoVoidDSGN
+- [Compass - Team Tracker, Quick Communications, Multi-language support](https://www.spigotmc.org/resources/91537/) - by Mher
+- [Sponge - Playing cool effect when placing a sponge](https://www.spigotmc.org/resources/93540/) - by Mher
+- [AntiDrop - Players Not Allow To Drop The Items In The Void](https://www.spigotmc.org/resources/86391/) - by Mher
+- [Arena Start Message - Allows you to send Arena Join Notification to the players in lobby](https://polymart.org/resource/1880/) - by StudioBeam Development
 - [Generator Split - Lightweight addon to split generator items on teams!](https://www.spigotmc.org/resources/83883/) - by KimoVoidDSGN
 - [Discord Stats | Corebot Addon - Spice up your discord server with Minecraft Bedwars Stats & Leaderboards on Discord.](https://builtbybit.com/resources/20403/) - by Zorino
 - [Golden GG - Add a color when a player writes gg when winning a game.](https://www.spigotmc.org/resources/95321/) - by STN-Studios
@@ -44,9 +40,10 @@ If you have issues with the addon, it will probably be better to go to any suppo
 - [Kdr, Fkdr, Wlr Addon - Addon that adds 3 new stats placeholders: Kdr, Fkdr and Wlr.](https://polymart.org/resource/2778/) - by itz_leoo
 - [RewardSummary Addon - Addon that sends the reward summary to players when a game ends.](https://polymart.org/resource/2826/) - by itz_leoo
 - [HolidayReward Addon - Addon that add the possibility to create rewards.](https://polymart.org/resource/3079) - by itz_leoo
-- [Hypixel Migrator - Migrate your Hypixel layout to BedWars1058!](https://polymart.org/resource/2836/) - by CubeCrafter72
-- [Play Again Addon - Adds the play again feature to BedWars1058!](https://polymart.org/resource/1946/) - by CubeCrafter72
-- [Ultimate Mode - A fun game mode for BedWars1058!](https://polymart.org/resource/2785/) - by CubeCrafter72
+- [Hypixel Migrator - Migrate your Hypixel layout to BedWars1058!](https://polymart.org/resource/2836/) - by Pixel Studios
+- [Play Again Addon - Adds the play again feature to BedWars1058!](https://polymart.org/resource/1946/) - by Pixel Studios
+- [Ultimate Mode - A fun game mode for BedWars1058!](https://polymart.org/resource/2785/) - by Pixel Studios
+- [Spectator Options - Add useful settings for spectators!](https://polymart.org/resource/1916/) - by Pixel Studios
 - [🍇 Voidless Addon - Adds the auto-bed defense feature to voidless mode.](https://polymart.org/resource/2599/) - by Zuyte
 - [⚒️ AdminAddon - Admin & Troll features of Bedwars1058!](https://polymart.org/resource/2684/) - by Zuyte
 - [LeaveDelay Addon - Adds delay to leave item in Bedwars1058!](https://polymart.org/resource/2805/) - by Zuyte
