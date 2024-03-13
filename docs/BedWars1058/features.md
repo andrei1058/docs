@@ -22,4 +22,4 @@ sidebar_position: 1.1
 * This plugin has also some add-ons made by the community, because BedWars1058 provides a large development API.
 * AFK system. Inactive players for more than 45 seconds can't pick-up items from generators.
 * You can add and remove items that you receive when you join the lobby, the arena and the spectator mode, and make them execute commands.
-* You can use [Parties](https://www.spigotmc.org/resources/3709/) plugin on your network and if a player makes a party in the lobby and then joins a game he will be in the same team with friends.
+* You can use [Parties](https://www.spigotmc.org/resources/3709/) plugin on your network. If a player makes a party in the lobby and then joins a game, he will be in the same team with friends.
