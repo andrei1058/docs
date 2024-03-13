@@ -29,7 +29,7 @@ chat:
 ## Economy
 **BedWars1058** is also providing Vault Economy plugins support since the first version ever released.
 
-You can use all the Economy plugins with [Vault](https://dev.bukkit.org/projects/vault) support like [Coins](https://www.spigotmc.org/resources/48536/) and any other economy plugins based on [Vault](https://dev.bukkit.org/projects/vault).
+You can use all the Economy plugins with [Vault](https://dev.bukkit.org/projects/vault) support like [Coins](https://spigotmc.org/resources/48536/) and any other economy plugins based on [Vault](https://dev.bukkit.org/projects/vault).
 
 ### Placeholders
 BedWars total money placeholder: {money}
