@@ -23,7 +23,7 @@ You can join arenas via this item received when you join the server if it is `se
 ## Join NPCs
 ![Screenshot_1](/uploads/Screenshot_1.png)
 
-BedWars1058 provides [Citizens](https://www.spigotmc.org/resources/13811/) support. You can join arenas by clicking on an NPC. More details about Citizens hook [here](citizens-hook).
+BedWars1058 provides [Citizens](https://spigotmc.org/resources/13811/) support. You can join arenas by clicking on an NPC. More details about Citizens hook [here](citizens-hook).
 
 ## Join Signs
 If you want to place a join sign, first of all you need to type `/bw build` in order to place blocks. Now you can place it and write on the first line `[bw]` and on the second line the name of the warena you want to join.
