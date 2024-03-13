@@ -3,11 +3,11 @@ sidebar_label: PlaceholderAPI Support
 title: PlaceholderAPI Support
 sidebar_position: 3.2
 ---
-**BedWars1058** is providing [PlaceholderAPI](https://www.spigotmc.org/resources/6245/) support since version 0.5 beta. Support is loaded when BedWars1058 Plugin is enabled. You don't have to download it from PAPI ecloud.
+**BedWars1058** is providing [PlaceholderAPI](https://spigotmc.org/resources/6245/) support since version 0.5 beta. Support is loaded when BedWars1058 Plugin is enabled. You don't have to download it from PAPI ecloud.
 
 If you want Per Arena Group Stats Placeholder, you can use I6y's [GroupStats](https://polymart.org/resource/3184/) Addon for Per Arena Group Stats Placeholders. 
 
-If you need help with [PlaceholderAPI](https://www.spigotmc.org/resources/6245/) Plugin join their [![Discord](https://img.shields.io/discord/164280494874165248)](https://discord.gg/7sndK3q/)
+If you need help with [PlaceholderAPI](https://spigotmc.org/resources/6245/) Plugin join their [![Discord](https://img.shields.io/discord/164280494874165248)](https://discord.gg/7sndK3q/)
 ## Player Level
 Get the player level. FORMATTED.
 
