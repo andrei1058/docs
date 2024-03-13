@@ -9,7 +9,7 @@ slug: /compatibility/
 
 | Status | Minecraft Edition | Server Software                     |
 |--------|-------------------|-------------------------------------|
-| 🟩     | Java Edition      | [Spigot](https://www.spigotmc.org/) | 
+| 🟩     | Java Edition      | [Spigot](https://spigotmc.org/) | 
 | 🟩     | Java Edition      | [Paper](https://papermc.io/)        |
 
 ### Supported Minecraft Versions
@@ -70,4 +70,4 @@ World management plugins are the enemies of BedWars1058 if not well configured. 
 secondary world management plugins need to be configured specifically to exclude management of BedWars maps.
 
 We will not be offering assistance if you are using one of the following plugins as we do not recommend them: [ViaRewind](https://www.spigotmc.org/resources/52109/),
-[ViaBackwards](https://www.spigotmc.org/resources/27448/), [PlugMan](https://dev.bukkit.org/projects/plugman) and [PerWorldPlugins](https://www.spigotmc.org/resources/96161/).
+[ViaBackwards](https://www.spigotmc.org/resources/27448/), [PlugMan](https://dev.bukkit.org/projects/plugman/) and [PerWorldPlugins](https://www.spigotmc.org/resources/96161/).
