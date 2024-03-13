@@ -69,5 +69,5 @@ BedWars1058 works in any environment, but that depends on you, the server owner.
 World management plugins are the enemies of BedWars1058 if not well configured. Since BedWars1058 has its own system, 
 secondary world management plugins need to be configured specifically to exclude management of BedWars maps.
 
-We will not be offering assistance if you are using one of the following plugins as we do not recommend them: [ViaRewind](https://www.spigotmc.org/resources/52109/),
-[ViaBackwards](https://www.spigotmc.org/resources/27448/), [PlugMan](https://dev.bukkit.org/projects/plugman/) and [PerWorldPlugins](https://www.spigotmc.org/resources/96161/).
+We will not be offering assistance if you are using one of the following plugins as we do not recommend them: [ViaRewind](https://spigotmc.org/resources/52109/),
+[ViaBackwards](https://spigotmc.org/resources/27448/), [PlugMan](https://dev.bukkit.org/projects/plugman/) and [PerWorldPlugins](https://spigotmc.org/resources/96161/).
