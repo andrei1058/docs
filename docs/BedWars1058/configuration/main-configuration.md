@@ -175,7 +175,10 @@ tnt-jump-settings:
   damage-self: 1
   damage-teammates: 5
   damage-others: 10
-  
+# TNT ignition setting
+tnt-prime-settings:
+  auto-ignite: true
+  fuse-ticks: 45  
 # fireball jump feature
 fireball:
   #fireball explosion dimension
