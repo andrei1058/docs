@@ -5,16 +5,16 @@ sidebar_position: 1.2
 # Frequently Asked Questions
 
 ### How do I edit an existing arena?
-Just do `/bw setupArena <name>` and you'll be able to change settings without loosing existing data.
+Just do `/bw setupArena <name>`, and you'll be able to change settings without losing existing data.
 
 ### Why shop/ upgrades NPCs aren't spawning?
-Make sure you have `spawn-npcs` set to `true` in `server.properties`, also if you have `WorldGuard` plugin, please remove any regions from BedWars arenas.
+Make sure you have `spawn-npcs` set to `true` in `server.properties`. Also, if you have `WorldGuard` plugin, please remove any regions from BedWars arenas.
 
-### I can't place blocks, why?
-If you are not able to place blocks in some places, make sure it's not a BedWars rule. If it is normal not to be able to break, you will receive a message. In other cases you might have `spawn-protection` activated, and it won't allow you to build at the map's spawn. In this case, please set `spawn-protection` to `0` in `server.properties`. If this didn't work, please make sure you didn't set the BedWars **main lobby** in the arena world, because it will prevent players from doing pvp, build etc..
+### I can't place blocks; why?
+If you are not able to place blocks in some places, make sure it's not a BedWars rule. If it is normal not to be able to break, you will receive a message. In other cases, you might have `spawn-protection` activated, and it won't allow you to build at the map's spawn. In this case, please set `spawn-protection` to `0` in `server.properties`. If this didn't work, please make sure you didn't set the BedWars **main lobby** in the arena world, because it will prevent players from doing PVP, building etc.
 
-### Why can't I pvp?
-Please make sure you didn't set the BedWars **main lobby** in the arena world, because it will prevent players from doing pvp, build etc. If you're using `MultiVerse` Plugin, make sure not to have the `pvp` flag disabled, same thing if you're using `WorldGuard` Plugin (it would be better if you remove any regions from BedWars arenas). If you don't have those plugins or if it didn't work, set `difficulty` higher than `0` in `server.properties` if you haven't already!
+### Why can't I PVP?
+Please make sure you didn't set the BedWars **main lobby** in the arena world, because it will prevent players from doing PVP, building etc. If you're using `MultiVerse` Plugin, make sure not to have the `pvp` flag disabled. Same thing if you're using `WorldGuard` Plugin (it would be better if you removed any regions from BedWars arenas). If you don't have those plugins or if it didn't work, set `difficulty` higher than `0` in `server.properties` if you haven't already!
 
 ### My arenas don't reset, why?
 Read about this [here](setup/creating-arenas#map-resetting-system)
