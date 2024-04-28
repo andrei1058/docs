@@ -14,7 +14,7 @@ slug: /compatibility/
 
 ### Supported Minecraft Versions
 
-| Status | Mc version          | Package name | Minimum Java Version | End of Support                 |
+| Status | MC Version          | Package Name | Minimum Java Version | End of Support                 |
 |--------|---------------------|--------------|----------------------|--------------------------------|
 | 🟩     | 1.20.4              | v1_20_R4     | 17                   | Supported                      |
 | 🟩     | 1.20.3              | v1_20_R3     | 17                   | Supported                      |
@@ -41,33 +41,32 @@ slug: /compatibility/
 
 <!-- Prettier doesn't change this -->
 :::note
-Minimum Java Version indicates the version BedWars1058 was compiled with.
+The minimum Java version indicates the version BedWars1058 was compiled with.
 :::
 
 <!-- Prettier doesn't change this -->
 :::tip
-When running _[Paper](https://papermc.io/)_ on java 17+ you might want to append this parameter to your start command, (before -jar): `-DPaper.IgnoreJavaVersion=true`
+When running _[Paper](https://papermc.io/)_ on Java 17+ You might want to append this parameter to your start command, (before -jar): `-DPaper.IgnoreJavaVersion=true`
 :::
 
 <!-- Prettier doesn't change this -->
 :::tip
-When running Spigot or Paper 1.8.8 with Java 11 you might get some errors when someone joins the server, 
-or it might not start up at all. To avoid this issue you need to set `use-native-transport=false` in `server.properties`.
+When running Spigot or Paper 1.8.8 with Java 11, you might get some errors when someone joins the server, 
+or it might not start up at all. To avoid this issue, you need to set `use-native-transport=false` in `server.properties`.
 :::
 
 ### Incompatibility with other Server Software
-Supported server software are stated at the top of this page. We will not provide any type of support for spigot forks 
-or other software. There are a multitude of reasons, but in a few words it is very time-consuming to support many softwares
-and versions at once. Keep note that BedWars1058 uses NMS code.
+Supported server software is stated at the top of this page. We will not provide any type of support for spigot forks or other software. 
+There are a multitude of reasons, but in a few words, it is very time-consuming to support many software programs and versions at once. Keep in mind that BedWars1058 uses an NMS code.
 
 The following lines are from the community with their knowledge using unsupported software:
-- **FoxSpigot**: if you can't pick up items from generators set `stack-items: true` in `BedWars1058/generators.yml`.
+- **FoxSpigot**: If you can't pick up items from generators, set `stack-items: true` in `BedWars1058/generators.yml`.
 
 ### Incompatibility with other Plugins
 BedWars1058 works in any environment, but that depends on you, the server owner. Good configuration is the key.
 
-World management plugins are the enemies of BedWars1058 if not well configured. Since BedWars1058 has its own system, 
+World management plugins are the enemies of BedWars1058 if they are not well configured. Since BedWars1058 has its own system, 
 secondary world management plugins need to be configured specifically to exclude management of BedWars maps.
 
-We will not be offering assistance if you are using one of the following plugins as we do not recommend them: [ViaRewind](https://spigotmc.org/resources/52109/),
+We will not be offering assistance if you are using one of the following plugins, as we do not recommend them: [ViaRewind](https://spigotmc.org/resources/52109/),
 [ViaBackwards](https://spigotmc.org/resources/27448/), [PlugMan](https://dev.bukkit.org/projects/plugman/) and [PerWorldPlugins](https://spigotmc.org/resources/96161/).
