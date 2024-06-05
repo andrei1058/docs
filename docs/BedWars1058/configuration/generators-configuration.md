@@ -7,6 +7,8 @@ sidebar_position: 3.4
 :::caution
 
 Generators have been recoded in version 24.7 and they are currently experimental. This page and plugin configuration may be subject to changes.
+We are currently evaluating to move generators configuration in a game-event config which will contain a game-begin event
+where you can customize multiple parameters.
 
 :::
 
@@ -64,6 +66,18 @@ Under generator type you have 2 more options:
 |---------|-------------------------------------------------------------------------------|----------|
 | team    | Section for generators that are associated to a team. E.g. base generator.    | Yes      |
 | no-team | Generators that are not associated to a team and can be found around the map. | Yes      |
+
+:::note
+
+Team based generators will only spawn if you set a position for that generator during [arena setup](../setup/creating-arenas.md).
+
+:::
+:::warning
+
+Team based generators currently start spawning when the game begins without being configurable. 
+In the future you will be able to define when a team generator can start spawning items.
+
+:::
 
 If you predict not to use of the available cases you can avoid adding them in your file. In the instance where you
 did not configure one of the cases, but it is required because you actually did set a generator for that case, you
