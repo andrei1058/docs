@@ -1,8 +1,15 @@
 ---
-sidebar_label: Generators Config
+sidebar_label: Generators
 title: Generators Configuration
 sidebar_position: 3.4
 ---
+
+:::caution
+
+Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+
+:::
+
 ### Explanation
 ```yaml
 #Under the "Default" configuration section there is the configuration for all the arena groups
