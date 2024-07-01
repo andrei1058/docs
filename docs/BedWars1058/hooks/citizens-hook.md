@@ -9,7 +9,7 @@ sidebar_position: 3.4
 
 # Video tutorial
 
-[![Video tutorial](https://img.youtube.com/vi/6aluXVNN--Q/0.jpg)](https://youtube.com/watch?v=6aluXVNN--Q "Tutorial")
+[![Video tutorial](https://img.youtube.com/vi/6aluXVNN--Q/0.jpg)](https://youtube.com/6aluXVNN--Q "Tutorial")
 
 # Creating a NPC
 Join your server and use the following command `/bw npc create <skinName> <groupName> <Line1>\n<Line2>`
