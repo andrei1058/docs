@@ -3,11 +3,13 @@ sidebar_label: Citizens Support
 title: Citizens Support
 sidebar_position: 3.4
 ---
-**BedWars1058** is providing [Citizens](https://www.spigotmc.org/resources/citizens.13811/) support since version 0.6.4beta (API 8). By installing it on your server you will have a new sub-command to the bedwars plugin, `/bw npc` for creating/ removing join-NPCs. Make sure you have instaled the correct version of Citizens compatible with your server in order to have this command listed at `/bw`.
+**BedWars1058** is providing [Citizens](https://spigotmc.org/resources/13811/) support since version 0.6.4 beta (API 8). By installing it on your server you will have a new sub-command to the bedwars plugin, `/bw npc` for creating/ removing join-NPCs. Make sure you have installed the correct version of Citizens compatible with your server. In order to have this command listed at `/bw`.
+
+**Note: Citizens is a paid plugin on SpigotMC. But you can get the free version of it in the [Citizens Jenkins](https://ci.citizensnpcs.co/job/Citizens2/) Website.**
 
 # Video tutorial
 
-[![Video tutorial](https://img.youtube.com/vi/6aluXVNN--Q/0.jpg)](https://www.youtube.com/watch?v=6aluXVNN--Q "Tutorial")
+[![Video tutorial](https://img.youtube.com/vi/6aluXVNN--Q/0.jpg)](https://youtube.com/6aluXVNN--Q "Tutorial")
 
 # Creating a NPC
 Join your server and use the following command `/bw npc create <skinName> <groupName> <Line1>\n<Line2>`

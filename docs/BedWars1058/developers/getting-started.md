@@ -4,9 +4,9 @@ title: Getting Started
 sidebar_position: 5.1
 ---
 ## First step
-If you want to use the API make sure to load your plugin after [BedWars1058](https://gitlab.com/andrei1058/BedWars1058).
-1.  Add it as softdepend in [plugin.yml](https://www.spigotmc.org/wiki/plugin-yml/): `softdepend: [BedWars1058]`
-2. Check if [BedWars1058](https://gitlab.com/andrei1058/BedWars1058) is on the server:
+If you want to use the API make sure to load your plugin after [BedWars1058](https://polymart.org/resource/1152/).
+1.  Add it as softdepend in [plugin.yml](https://spigotmc.org/wiki/plugin-yml/): `softdepend: [BedWars1058]`
+2. Check if [BedWars1058](https://polymart.org/resource/1152/) is on the server:
 
 ```java
 @Override
