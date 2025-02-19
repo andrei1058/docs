@@ -24,6 +24,7 @@ If you have issues with the addon, it will probably be better to go to any suppo
 
 ### Free Addons
 - [Spectate Addon - Implements the /spectate [player] command like big servers!](https://polymart.org/resource/4496/) - by AgentNoobff
+- [Deposit Addon - Allows you to depsoit items in chest & ender chests!](https://www.spigotmc.org/resources/bedwars1058-deposit.122554/) - by Parsa3323
 - [Spectator & Play-Again Addon {Menu}](https://polymart.org/resource/1937/) - by StudioBeam Development
 - [Arena Start Message - Allows you to send Arena Join Notification to the players in lobby](https://polymart.org/resource/1880/) - by StudioBeam Development
 - [Compass - Team Tracker, Quick Communications, Multi-language support](https://www.spigotmc.org/resources/91537/) - by Mher
