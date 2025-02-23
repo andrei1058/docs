@@ -17,7 +17,7 @@ Legend:
 | Status | Mc version                         | Platform                                           | Minimum Java Version | End of Support                                                         |
 |--------|------------------------------------|----------------------------------------------------|----------------------|------------------------------------------------------------------------|
 | 🟩 ⚠️  | 1.21.1 (v1_20_R1)                  | [Spigot](https://www.spigotmc.org/) (Java Edition) | 20                   | Supported since version 25.2.1-SNAPSHOT.                               |
-| 🟩 ⚠️  | 1.21.1 (v1_20_R1)                  | [Paper](https://papermc.io/) (Java Edition)        | 20                   | Supported                                                              |
+| 🟩 ⚠️  | 1.21.1 (v1_20_R1)                  | [Paper](https://papermc.io/) (Java Edition)        | 20                   | Supported since version 25.2.1-SNAPSHOT.                               |
 | 🟩     | 1.20.4 (v1_20_R4)                  | Spigot, Paper                                      | 17                   | Supported                                                              |
 | 🟩     | 1.20.3 (v1_20_R3)                  | Spigot, Paper                                      | 17                   | Supported                                                              |
 | 🟨     | 1.20.2 (v1_20_R2)                  | Spigot, Paper                                      | 17                   | Scheduled for removal in 2024.                                         |
