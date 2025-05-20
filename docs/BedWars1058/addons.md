@@ -62,6 +62,7 @@ If you have issues with the addon, it will probably be better to go to any suppo
 - [BossBar - A Bossbar Addon for BedWars1058.](https://polymart.org/resource/2881/) - by NotLew_x
 - [AdventureMode - Gamemode change utility for BedWars1058](https://polymart.org/resource/3296/) - by NotLew_x
 - [BedSteal - New Gamemode for BedWars1058](https://polymart.org/resource/3575/) - by Endern, Zuyte and smaks
+- [Slingshot - made for fireball and TNT type thrusts but special for escapes](https://www.spigotmc.org/resources/bedwars-estilingue-addon-v-1-0.125232/) - by Luizaum
 
 ## Pre-made Setups
 
