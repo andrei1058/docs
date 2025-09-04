@@ -72,7 +72,8 @@ You can download some Pre-made Setups from here.
 - by Ruben_Artz - [BEDWARS + DISCORD BOT](https://polymart.org/resource/544/)
 - by DyeEarth - [❄️ Premade Bedwars - Setups](https://polymart.org/resource/1679/)
 - by Shanvir - [⚔ BEDWARS SETUP ⚔](https://polymart.org/resource/2913/)
-- by ArrowTan - [Brand New 1.17.1 Bedwars Setup](https://polymart.org/resource/3038)
+- by ArrowTan - [Modern 1.20.4 Bedwars Setup](https://builtbybit.com/resources/bedwars-setup-modern-minigame-series.74829/)
+- by zArrowTan - [OG Series 1.8.8 Bedwars Setup](https://builtbybit.com/resources/bedwars-setup-og-minigame-series.73714/) 
 
 ### Free Setups
 - by BijjuXD - [🔥FREE BEDWARS SETUP 🔥](https://polymart.org/r/4343)
