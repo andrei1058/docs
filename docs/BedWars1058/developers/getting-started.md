@@ -41,7 +41,7 @@ public boolean isInGame(Player player) {
 ```
 
 ## JavaDoc
-[Click here](https://javadocs.andrei1058.dev/BedWars1058/) for JavaDocs.
+[Click here](https://javadocs.andrei1058.com/BedWars1058/) for JavaDocs.
 
 ## Configuration
 If you want to create a config file for your add-on, you should use our standars and create it in `plugins/BedWars1058/Addons/AddonName/config.yml`.
