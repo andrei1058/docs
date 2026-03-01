@@ -3,7 +3,7 @@ sidebar_label: Events
 title: Events
 sidebar_position: 5.3
 ---
-BedWars1058 provides many events that you can use to extend its functionality. You can see the full list in the [JavaDocs](https://javadocs.andrei1058.dev/BedWars1058).
+BedWars1058 provides many events that you can use to extend its functionality. You can see the full list in the [JavaDocs](https://javadocs.andrei1058.com/BedWars1058).
 
 #### Gameplay Events
 - `ArenaStatusChangeEvent`: Called when an arena's status changes.

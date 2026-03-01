@@ -12,7 +12,7 @@ sidebar_position: 5.2
 <repositories>
   <repository>
     <id>andrei1058-repo</id>
-    <url>https://repo.andrei1058.dev/releases/</url>
+    <url>https://repo.andrei1058.com/releases/</url>
   </repository>
 </repositories>
 ```
@@ -20,7 +20,7 @@ sidebar_position: 5.2
 ###### Gradle
 ```groovy
 repositories {
-    maven { url 'https://repo.andrei1058.dev/releases/' }
+    maven { url 'https://repo.andrei1058.com/releases/' }
 }
 ```
 

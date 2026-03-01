@@ -8,12 +8,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'andrei1058 wiki',
   tagline: 'Dinosaurs are cool',
-  url: 'https://wiki.andrei1058.dev',
+  url: 'https://wiki.andrei1058.com',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'uploads/logo.png',
-  organizationName: 'andrei1058.dev', // Usually your GitHub org/username.
+  organizationName: 'andrei1058.com', // Usually your GitHub org/username.
   projectName: 'docs', // Usually your repo name.
 
   presets: [
@@ -52,7 +52,7 @@ const config = {
         },
         items: [
           {
-            href: 'https://wiki.andrei1058.dev/',
+            href: 'https://wiki.andrei1058.com/',
             label: 'Home',
             position: 'left',
           },
@@ -119,16 +119,16 @@ const config = {
               },
               {
                 label: 'Maven',
-                href: 'https://wiki.andrei1058.dev/docs/BedWars1058/developers/maven',
+                href: 'https://wiki.andrei1058.com/docs/BedWars1058/developers/maven',
               },
               {
                 label: 'Javadocs',
-                href: 'https://javadocs.andrei1058.dev/BedWars1058/',
+                href: 'https://javadocs.andrei1058.com/BedWars1058/',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Andrei1058.dev | Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Andrei1058.com | Built with Docusaurus.`,
       },
       "colorMode": {
         "defaultMode": "dark",
