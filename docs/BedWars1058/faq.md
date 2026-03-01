@@ -17,7 +17,7 @@ If you are not able to place blocks in some places, make sure it's not a BedWars
 Please make sure you didn't set the BedWars **main lobby** in the arena world, because it will prevent players from doing pvp, build etc. If you're using `MultiVerse` Plugin, make sure not to have the `pvp` flag disabled, same thing if you're using `WorldGuard` Plugin (it would be better if you remove any regions from BedWars arenas). If you don't have those plugins or if it didn't work, set `difficulty` higher than `0` in `server.properties` if you haven't already!
 
 ### My arenas don't reset, why?
-Read about this [here](setup/creating-arenas.md)
+Read about how the map reset system works and how to properly configure it [here](setup/plugin-installation.md#how-does-the-map-reset-system-work).
 
 ### Why am I getting a Bedrock item from the shop?
 If you are trying to buy an item from the shop but this item is invalid then a placeholder item will be given (Bedrock). Try looking in your server log for a message about an Invalid Item. Don't forget to turn on `debug:true` in the `config.yml` 
