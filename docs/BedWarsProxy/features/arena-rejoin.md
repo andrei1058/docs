@@ -9,7 +9,7 @@ When you leave a game or if you get disconnected you can re-join it, based on so
 
 #### Usage
 
-| Command    | Description    |
-|------------|----------------|
-| /rejoin    | re-join a game |
-| /bw rejoin | re-join a game |
+| Command    | Description    | Permission |
+|------------|----------------|------------|
+| /rejoin    | re-join a game | `bw.rejoin` |
+| /bw rejoin | re-join a game | `bw.rejoin` |
