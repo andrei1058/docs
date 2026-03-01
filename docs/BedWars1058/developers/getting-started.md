@@ -21,9 +21,23 @@ public void onEnable() {
 ```
 
 ## Getting API Methods
-Initializing the API:
+To access the API, you first need to get the `BedWars` instance.
+
 ```java
 BedWars bedwarsAPI = Bukkit.getServicesManager().getRegistration(BedWars.class).getProvider();
+```
+
+### Common API Methods
+- `IArena arena = bedwarsAPI.getArenaUtil().getArenaByPlayer(player)`: Get the arena a player is currently in.
+- `bedwarsAPI.getArenaUtil().getArenas()`: Get a list of all arenas.
+- `IArena arena = bedwarsAPI.getArenaUtil().getArenaByName("ArenaName")`: Get an arena by its name.
+- `ITeam team = arena.getTeam(player)`: Get the team of a player in an arena.
+
+## Example: Checking if a player is in an arena
+```java
+public boolean isInGame(Player player) {
+    return bedwarsAPI.getArenaUtil().getArenaByPlayer(player) != null;
+}
 ```
 
 ## JavaDoc

@@ -158,6 +158,9 @@ shout-cmd-cooldown: 30
 # How long can a player stay disconnected before eliminate him. In seconds.
 rejoin-time: 300
 
+# Set this to true to count a game as loss if the player leaves while the game is still running.
+mark-leave-as-abandon: false
+
 # How long to protect a player after he re-spawns. This will prevent others from
 # killing him instantly at his spawn, but if the victim starts to hit others the
 # protection will disappear. You should set this to at least 500 because it will
@@ -176,6 +179,23 @@ tnt-jump-settings:
   damage-teammates: 5
   damage-others: 10
   
+# Blast protection settings
+blast-protection:
+  # Blast resistance for end stone. 
+  # Recommendation: 69 for 1.8.8, 12 for newer versions.
+  end-stone: 12
+  # Blast resistance for glass.
+  glass: 300
+  # Whether glass blocks should block TNT ray.
+  ray-blocked-by-glass: true
+
+# TNT Prime settings
+tnt-prime-settings:
+  # Whether TNT should automatically ignite when placed.
+  auto-ignite: true
+  # TNT fuse time in ticks.
+  fuse-ticks: 45
+
 # fireball jump feature
 fireball:
   #fireball explosion dimension
@@ -240,6 +260,9 @@ performance-settings:
   # Set this to false if you want to disable the generators rotation animation
   # This will disable some tasks to reduce CPU usage
   rotate-generators: true
+
+  # Set this to true to show TNT target player name.
+  spoil-tnt-players: true
 
   # Set this to true if you want to disable the packets used when a player respawns.
   # BedWars1058 uses them to fix possible invisibility issues.
@@ -395,4 +418,35 @@ spectator-items:
 
 # Allow generator splitting between teammates
 enable-gen-split: true
+
+# Whether to use the experimental team assigner.
+use-experimental-team-assigner: true
+
+# Whether to enable Halloween features (e.g. pumpkins).
+enable-halloween-feature: true
+
+# Whether to allow extinguishing fire.
+allow-fire-extinguish: true
+
+# Hunger settings
+allow-hunger-depletion:
+  waiting: false
+  ingame: false
+
+# Game end settings
+game-end:
+  # Show eliminated players at the end of the game.
+  show-eliminated: true
+  # Teleport eliminated players back to the arena at the end of the game.
+  teleport-eliminated: true
+  # Chat top statistics configuration.
+  chat-top:
+    # Statistic to order by. e.g. KILLS, FINAL_KILLS, BEDS_DESTROYED
+    order-by: KILLS
+    # Whether to hide missing statistics.
+    hide-missing: true
+  # Scoreboard top statistics configuration.
+  sb-top:
+    order-by: KILLS
+    hide-missing: true
 ```

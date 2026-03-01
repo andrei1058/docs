@@ -37,7 +37,9 @@ BedWarsProxy is a plugin that can be installed on lobby/hub servers. Do not inst
 6. Make sure you've restarted each of the servers (after configuring them), and enjoy!
 
 ## Usage
-To open the arena selector, you can use `/bw gui`
+To open the arena selector, you can use `/bw gui`. This requires the `bw.proxy.gui` permission.
+
+For a full list of commands, see the [Commands](commands) page.
 
 BedWarsProxy does not have a built-in scoreboard, so you will need to use an external scoreboard plugin and the
 [PlaceHolderAPI placeholders](features/placeholders) if you want a scoreboard.

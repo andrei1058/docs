@@ -65,4 +65,19 @@ vanilla-death-drops: false
 
 #Set this to false if you want to disable the bed holograms
 use-bed-hologram: true
+
+#Set this to true to allow players to break any block in the arena
+#If set to true, players will also be able to place blocks anywhere
+allow-map-break: false
+
+#Custom game rules for this arena
+game-rules:
+  #Whether to allow natural health regeneration
+  naturalRegeneration: false
+  #Whether to keep inventory on death (managed by BW1058 if false)
+  keepInventory: false
+  #Whether to allow mob spawning
+  doMobSpawning: false
+  #Whether to allow fire spread
+  doFireTick: false
 ```
