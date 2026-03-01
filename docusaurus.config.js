@@ -69,6 +69,12 @@ const config = {
             label: 'BedWarsProxy',
           },
           {
+            type: 'doc',
+            docId: 'SteveSus/home',
+            position: 'left',
+            label: 'SteveSus',
+          },
+          {
             href: 'https://github.com/andrei1058',
             label: 'GitHub',
             position: 'right',
@@ -88,6 +94,10 @@ const config = {
               {
                 label: 'BedWarsProxy',
                 to: '/docs/BedWarsProxy',
+              },
+              {
+                label: 'SteveSus',
+                to: '/docs/SteveSus',
               },
             ],
           },
