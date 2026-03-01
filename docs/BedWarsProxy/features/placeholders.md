@@ -28,4 +28,6 @@ Placeholders that can be used on supported plugins.
 | `%bw1058_player_xp%`           | Show a player xp number.                      |
 | `%bw1058_player_req_xp_formatted%` | Show a player required xp, formatted.     |
 | `%bw1058_player_req_xp%`       | Show a player required xp number.             |
+| `%bw1058_player_rerq_xp_formatted%` | Alias for `player_req_xp_formatted`.      |
+| `%bw1058_player_rerq_xp%`      | Alias for `player_req_xp`.                    |
 

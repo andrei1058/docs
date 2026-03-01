@@ -57,15 +57,15 @@ Get last play date using the player's language date-format.
 
 Placeholder: `%bw1058_stats_lastplay%`
 
+## Total Kills
+Get a player's kills. (regular + final).
+
+Placeholder: `%bw1058_stats_total_kills%`
+
 ## Regular Kills
 Get a player's regular kills count.
 
 Placeholder: `%bw1058_stats_kills%`
-
-## Total Kills
-Get a player's kills. (regular + final).
-
-Placeholder: `%bw1058_stats_total_kills%`;
 
 ## Total Wins
 Get a player's total wins count.
@@ -102,8 +102,13 @@ Get a player's total games played count.
 
 Placeholder: `%bw1058_stats_gamesplayed%`
 
-## Players In Game
+## Arenas Online
 Get current players (playing) count.
+
+Placeholder: `%bw1058_current_online%`
+
+## Players In Game
+Get total players in your current arena.
 
 Placeholder: `%bw1058_current_playing%`
 
@@ -112,8 +117,13 @@ Get total arenas count.
 
 Placeholder: `%bw1058_current_arenas%`
 
+## Player Team Color
+This returns the player's team color if they are in an arena and the game has started.
+
+Placeholder: `%bw1058_player_team_color%`
+
 ## Player Team
-This returns the player's team if a he is a player. [SPECTATOR] if he is a spectator or an empty string if he is not in an arena. [SHOUT] if is a /shout or !message.
+This returns the player's team if he is a player. [SPECTATOR] if he is a spectator or an empty string if he is not in an arena. [SHOUT] if is a /shout or !message.
 
 Placeholder: `%bw1058_player_team%`
 
@@ -123,9 +133,10 @@ This return's the player's status. Meant for conditional placeholders
 <details><summary>Values</summary>
 
 `NONE` - The player is not in an arena at all<br/>
-`WAITING` - The player is in a waiting lobby, waiting for the game to start<br/>
+`WAITING` - The player is in a waiting lobby, waiting for the game to start (includes STARTING state)<br/>
 `PLAYING` - The player is playing (not spectating)<br/>
-`SPECTATING` - The player is spectating
+`SPECTATING` - The player is spectating<br/>
+`RESTARTING` - The arena is restarting
 
 </details>
 
