@@ -6,7 +6,7 @@ sidebar_position: 3.3
 ## Chat
 **BedWars1058** is providing [Vault](https://dev.bukkit.org/projects/vault) support since the first version ever released. 
 
-You can have rank prefixies and suffixies in chat by adding [Vault](https://dev.bukkit.org/projects/vault) near your permissions plugin  like [PowerfulPerms](https://www.spigotmc.org/resources/powerfulperms.8143/), [PermissionsEx](https://dev.bukkit.org/projects/permissionsex) and any other permissions plugin based on [Vault](https://dev.bukkit.org/projects/vault).
+You can have rank prefixes and suffixes in chat by adding [Vault](https://dev.bukkit.org/projects/vault) alongside a permissions plugin like [LuckPerms](https://luckperms.net/), [PermissionsEx](https://dev.bukkit.org/projects/permissionsex), or any other permissions plugin that supports [Vault](https://dev.bukkit.org/projects/vault).
 
 
 

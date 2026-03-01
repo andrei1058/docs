@@ -41,6 +41,8 @@ Default:
     tierI:
       #This is the diamond-spawn delay in seconds
       delay: 30
+      #How many diamonds to spawn at once
+      amount: 1
       #If the amount of diamonds spawned on a generator
       #is equal to this, it won't spawn items anymore until
       #you collect the dropped items
@@ -50,6 +52,8 @@ Default:
     tierII:
       #This is the diamond-spawn delay in seconds
       delay: 20
+      #How many diamonds to spawn at once
+      amount: 1
       #If the amount of diamonds spawned on a generator
       #is equal to this, it won't spawn items anymore until
       #you collect the dropped items.
@@ -63,6 +67,8 @@ Default:
     tierIII:
       #This is the diamond-spawn delay in seconds
       delay: 15
+      #How many diamonds to spawn at once
+      amount: 1
       #If the amount of diamonds spawned on a generator
       #is equal to this, it won't spawn items anymore until
       #you collect the dropped items.
@@ -76,6 +82,8 @@ Default:
     tierI:
       #This is the emerald-spawn delay in seconds
       delay: 70
+      #How many emeralds to spawn at once
+      amount: 1
       #If the amount of emeralds spawned on a generator
       #is equal to this, it won't spawn items anymore until
       #you collect the dropped items.
@@ -85,6 +93,8 @@ Default:
     tierII:
       #This is the emerald-spawn delay in seconds
       delay: 50
+      #How many emeralds to spawn at once
+      amount: 1
       #If the amount of emeralds spawned on a generator
       #is equal to this, it won't spawn items anymore until
       #you collect the dropped items.
@@ -98,6 +108,8 @@ Default:
     tierIII:
       #This is the emerald-spawn delay in seconds
       delay: 30
+      #How many emeralds to spawn at once
+      amount: 1
       #If the amount of emeralds spawned on a generator
       #is equal to this, it won't spawn items anymore until
       #you collect the dropped items.
@@ -129,25 +141,31 @@ Creating custom configuration it's really easy. Copy the `Default` configuration
   diamond:
     tierI:
       delay: 30
+      amount: 1
       spawn-limit: 4
     tierII:
       delay: 20
+      amount: 1
       spawn-limit: 6
       start: 360
     tierIII:
       delay: 15
+      amount: 1
       spawn-limit: 8
       start: 1080
   emerald:
     tierI:
       delay: 70
+      amount: 1
       spawn-limit: 4
     tierII:
       delay: 50
+      amount: 1
       spawn-limit: 6
       start: 720
     tierIII:
       delay: 30
+      amount: 1
       spawn-limit: 8
       start: 1440
 ````

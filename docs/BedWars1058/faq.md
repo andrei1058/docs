@@ -17,7 +17,7 @@ If you are not able to place blocks in some places, make sure it's not a BedWars
 Please make sure you didn't set the BedWars **main lobby** in the arena world, because it will prevent players from doing pvp, build etc. If you're using `MultiVerse` Plugin, make sure not to have the `pvp` flag disabled, same thing if you're using `WorldGuard` Plugin (it would be better if you remove any regions from BedWars arenas). If you don't have those plugins or if it didn't work, set `difficulty` higher than `0` in `server.properties` if you haven't already!
 
 ### My arenas don't reset, why?
-Read about this [here](setup/creating-arenas#map-resetting-system)
+Read about how the map reset system works and how to properly configure it [here](setup/plugin-installation.md#how-does-the-map-reset-system-work).
 
 ### Why am I getting a Bedrock item from the shop?
 If you are trying to buy an item from the shop but this item is invalid then a placeholder item will be given (Bedrock). Try looking in your server log for a message about an Invalid Item. Don't forget to turn on `debug:true` in the `config.yml` 
@@ -27,8 +27,8 @@ If you are trying to buy an item from the shop but this item is invalid then a p
 This is a client-side issue, it happens on modified clients (usually on 1.8.x).
 
 ### Error occurred while enabling BedWars1058, what does it mean?
-In most cases it means that you are running an unsupported version, check: [compatibility](compatibility#supported-versions).
-When a message is displayed like ``this version of the Java Runtime only recognizes class file versions up to 52.0`` this means you are running an outdated version of Java. Update to a more recent version of java as described here: [Recommended Java Versions](compatibility#recommended-java-versions).
+In most cases it means that you are running an unsupported version, check: [compatibility](compatibility.md).
+When a message is displayed like ``this version of the Java Runtime only recognizes class file versions up to 52.0`` this means you are running an outdated version of Java. Update to a more recent version of java as described here: [Recommended Java Versions](compatibility.md).
 Note: If you are running a 1.8 server you might have to disable use-native-transport in server.properties in order for the server to start.
 
 ### I am stuck at spawn when joining the lobby.

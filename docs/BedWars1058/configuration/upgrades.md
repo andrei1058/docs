@@ -152,6 +152,23 @@ upgrade-enchant-1:
     # Syntax: 'dragon:amount'
     ## Where amount is the dragons count.
     - 'dragon: 2'
+
+    # Add command under receive if you want to execute a command when bought.
+    # Syntax: 'command:dispatchType,command'
+    # Dispatch types: 
+    # ONCE_AS_CONSOLE - will run the command a single time as console
+    # FOREACH_MEMBER_AS_CONSOLE - will execute the command foreach player as console
+    # FOREACH_MEMBER_AS_PLAYER - will execute the command foreach player as player
+    # Placeholders:
+    # {buyer} buyer name, {buyer_uuid} for buyer uuid
+    # {team} for team identifier, {team_display} for team display name
+    # {team_color} for team color, {arena} for arena identifier
+    # {arena_display} for arena display name, {arena_world} for worldName
+    # {arena_group} for arena group name.
+    # Placeholders when executing foreach player: 
+    # {player} for current player name, {player_uuid} for current player UUID.
+    # DO NOT USE space after comma (,)
+    - 'command: FOREACH_MEMBER_AS_CONSOLE,give {player} diamond 20'
 ```
 ---
 
@@ -205,38 +222,18 @@ base-trap-1:
   - 'disenchant-item: DAMAGE_ALL,sword'
    
   # Add player-effect in the list if you want to give potion effects.
-  # Syntax: 'player-effect:effect type,amplifier,time_seconds'
+  # Syntax: 'player-effect:effect type,amplifier,time_seconds,apply'
   ## effect types list: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/potion/PotionEffectType.html
   ## amplifier is like Haste I -> where 1 stands for amplifier
   ## time is seconds and tells how long to keep the effect. 0 for infinite, used for base effect.
   ## apply types: 
-  ## team - applied to your teamt
+  ## team - applied to your team
   ## base - for teammates when they are on base
   ## enemy - to enemies when they enter your island range
   - 'player-effect: SPEED,1,0,team'
-  - 'player-effect: HASTE,1,0,enemy'
+  - 'player-effect: SLOW,1,5,enemy'
 
-  ## Add this to remove potion effects when a enemy enter your island range.
-  # Syntax: 'remove-effect: effect type'
-  ## Effect type is the effect to be removed.
   - 'remove-effect: INVISIBILITY'
-
-  # Add command under receive if you want to execute a command when bought.
-  # Syntax: command: dispatchType, command string here
-  # Dispatch types: 
-  # ONCE_AS_CONSOLE - will run the command a single time as console
-  # FOREACH_MEMBER_AS_CONSOLE - will execute the command foreach player as console
-  # FOREACH_MEMBER_AS_PLAYER - will execute the command foreach player as player
-  # Placeholders:
-          # {buyer} buyer name, {buyer_uuid} for buyer uuid
-          # {team} for team identifier, {team_display} for team display name
-          # {team_color} for team color, {arena} for arena identifier
-          # {arena_display} for arena display name, {arena_world} for worldName
-          # {arena_group} for arena group name.
-          # Placeholders when executing foreach player: 
-          # {player} for current player name, {player_uuid} for current player UUID.
-  # DO NOT USE space after comma (,)
-  - 'command: FOREACH_MEMBER_AS_CONSOLE,give {player} diamond 20'
 ```
 ---
 

@@ -8,6 +8,7 @@ Placeholders that can be used on supported plugins.
 | Placeholder                    | Description                                   |
 |--------------------------------|-----------------------------------------------|
 | `%bw1058_group_count_<group>%` | Show the amount of players in an arena group. |
+| `%bw1058_stats_total_kills%`    | Show player total kills (kills + final kills). |
 | `%bw1058_stats_firstplay%`     | Show a player first play date.                |
 | `%bw1058_stats_lastplay%`      | Show a player last play date.                 |
 | `%bw1058_stats_kills%`         | Show player kills.                            |
@@ -21,9 +22,12 @@ Placeholders that can be used on supported plugins.
 | `%bw1058_current_online%`      | Show amount of players in arenas.             |
 | `%bw1058_current_arenas%`      | Show amount of active arenas.                 |
 | `%bw1058_player_level%`        | Show a player level number.                   |
+| `%bw1058_player_level_raw%`    | Show a player level raw number.               |
 | `%bw1058_player_progress%`     | Show a player progress bar.                   |
-| `%bw1058_player_xp_formated%`  | Show a player formatted xp.                   |
+| `%bw1058_player_xp_formatted%` | Show a player formatted xp.                   |
 | `%bw1058_player_xp%`           | Show a player xp number.                      |
-| `%bw1058_req_xp_formatted%`    | Show a player required xp, formatted.         |
-| `%bw1058_req_xp%`              | Show a player required xp number.             |
+| `%bw1058_player_req_xp_formatted%` | Show a player required xp, formatted.     |
+| `%bw1058_player_req_xp%`       | Show a player required xp number.             |
+| `%bw1058_player_rerq_xp_formatted%` | Alias for `player_req_xp_formatted`.      |
+| `%bw1058_player_rerq_xp%`      | Alias for `player_req_xp`.                    |
 

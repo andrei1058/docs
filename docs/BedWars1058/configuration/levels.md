@@ -27,11 +27,11 @@ levels:
   #You can create a configuration for a closed range of levels.
   #Levels from 5 to 10 will use this.
   5-10:
-    name: '&6{number} ✩ '
-    rankup-cost: 3900
+    name: '&e[{number}✩] '
+    rankup-cost: 5000
   # This option is for levels without a specific configuration.
   others:
-    name: '&d{number} ✩ '
+    name: '&7[{number}✩] '
     rankup-cost: 5000
 
 # Xp rewards configuration

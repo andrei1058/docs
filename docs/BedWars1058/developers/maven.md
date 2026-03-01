@@ -7,6 +7,7 @@ sidebar_position: 5.2
 
 ##### Repository
 
+###### Maven
 ```xml
 <repositories>
   <repository>
@@ -14,17 +15,31 @@ sidebar_position: 5.2
     <url>https://repo.andrei1058.dev/releases/</url>
   </repository>
 </repositories>
+```
 
+###### Gradle
+```groovy
+repositories {
+    maven { url 'https://repo.andrei1058.dev/releases/' }
+}
 ```
 
 ##### Dependency
 
+###### Maven
 ```xml
 <!--BedWars1058 API-->
 <dependency>
   <groupId>com.andrei1058.bedwars</groupId>
   <artifactId>bedwars-api</artifactId>
-  <version>VERSION-HERE</version>
+  <version>25.2</version>
+  <scope>provided</scope>
 </dependency>
+```
 
+###### Gradle
+```groovy
+dependencies {
+    compileOnly 'com.andrei1058.bedwars:bedwars-api:25.2'
+}
 ```

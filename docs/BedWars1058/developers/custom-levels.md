@@ -43,12 +43,27 @@ public class CustomLevelsManager implements Level {
     public int getRequiredXp(Player p) {
         return PlayerLevel.getLevelByPlayer(p.getUniqueId()).getNextLevelCost();
     }
+
+    @Override
+    public void addXp(Player player, int xp, PlayerXpGainEvent.XpSource source) {
+        // Code to add XP to the player in your custom system
+    }
+
+    @Override
+    public void setXp(Player player, int currentXp) {
+        // Code to set the player's XP in your custom system
+    }
+
+    @Override
+    public void setLevel(Player player, int level) {
+        // Code to set the player's level in your custom system
+    }
 }
 ```
 
 **How to register**
 This will safe-disable the BedWars1058 internal Levels System and will register yours.
 ```java
-BedWars bedwarsAPI = Bukkit.getServicesManager().getRegistration(BedWars .class).getProvider();
+BedWars bedwarsAPI = Bukkit.getServicesManager().getRegistration(BedWars.class).getProvider();
 bedwarsAPI.setLevelAdapter(new CustomLevelsManager());
 ```

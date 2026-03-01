@@ -10,7 +10,7 @@ If you want different prices per arena group you should use a server as a single
 
 :::
 
-Make sure you're using the right material name when changing item materials in this config. If you want to make [custom categories](shop#how-to-create-items-like-the-armor-category). scroll to the bottom of the page.
+Make sure you're using the right material name when changing item materials in this config. If you want to make [custom categories](#how-to-create-items-like-the-armor-category), scroll to the bottom of the page.
 
 For a list of materials, sounds, and potions, check the [resources page](../resources).
 
@@ -72,6 +72,16 @@ shop-specials:
   tower:
     enable: true
     material: CHEST
+  # Here you configure the "Bridge Egg"
+  bridge-egg:
+    material: EGG
+    # The block used for the bridge. 
+    # Use "TEAM_WOOL" for the buyer's team wool.
+    block: TEAM_WOOL
+    # Delay in ticks between block placement.
+    delay: 2
+    # The amount of blocks to place.
+    blocks: 20
 
 # This is not a shop category
 # This section contains the items you receive at the quick-buy shop category by default 
