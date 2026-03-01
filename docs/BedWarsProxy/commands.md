@@ -7,13 +7,13 @@ This page contains the documentation about the commands available in BedWarsProx
 
 | Command | Description | Permission |
 |---------|-------------|------------|
-| `/bw gui` | Opens the arena selector GUI. | `bw.proxy.gui` |
-| `/bw join <arena>` | Join an arena by name. | `bw.proxy.join` |
-| `/bw join <group>` | Join a random arena from a group. | `bw.proxy.join` |
-| `/bw rejoin` | Rejoin your last arena. | `bw.proxy.rejoin` |
-| `/bw stats [player]` | Open your statistics or another player's statistics. | `bw.proxy.stats` |
-| `/bw lang` | Open the language selector GUI. | `bw.proxy.lang` |
-| `/bw tp <player>` | Teleport to a player in an arena (spectate). | `bw.proxy.tp` |
+| `/bw gui` | Opens the arena selector GUI. | - |
+| `/bw join <arena>` | Join an arena by name. | - |
+| `/bw join <group>` | Join a random arena from a group. | - |
+| `/bw rejoin` | Rejoin your last arena. | `bw.rejoin` |
+| `/bw stats [player]` | Open your statistics or another player's statistics. | - |
+| `/bw lang` | Open the language selector GUI. | - |
+| `/bw tp <player>` | Teleport to a player in an arena (spectate). | `bw.tp` |
 
 ### Party Commands
 If the internal party system is enabled, the following commands are available:

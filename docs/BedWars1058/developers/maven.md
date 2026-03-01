@@ -32,7 +32,7 @@ repositories {
 <dependency>
   <groupId>com.andrei1058.bedwars</groupId>
   <artifactId>bedwars-api</artifactId>
-  <version>LATEST-VERSION</version>
+  <version>25.2</version>
   <scope>provided</scope>
 </dependency>
 ```
@@ -40,6 +40,6 @@ repositories {
 ###### Gradle
 ```groovy
 dependencies {
-    compileOnly 'com.andrei1058.bedwars:bedwars-api:LATEST-VERSION'
+    compileOnly 'com.andrei1058.bedwars:bedwars-api:25.2'
 }
 ```

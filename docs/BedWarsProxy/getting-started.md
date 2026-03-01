@@ -37,7 +37,7 @@ BedWarsProxy is a plugin that can be installed on lobby/hub servers. Do not inst
 6. Make sure you've restarted each of the servers (after configuring them), and enjoy!
 
 ## Usage
-To open the arena selector, you can use `/bw gui`. This requires the `bw.proxy.gui` permission.
+To open the arena selector, you can use `/bw gui`. 
 
 For a full list of commands, see the [Commands](commands) page.
 

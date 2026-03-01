@@ -3,134 +3,173 @@ sidebar_label: Custom Ore Generators
 title: Creating Custom Ore Generators
 sidebar_position: 5.6
 ---
-How to create a custom ore generator.
+How to create a custom ore generator by implementing the `IGenerator` interface.
 
 ```java
 public class ExampleGenerator implements IGenerator {
 
     @Override
-    public void setHologram(@Nullable Hologram hologram) {
-        // set a hologram above your generator
-    }
-
-    @Override
-    public @Nullable Hologram getHologram() {
-        // get the hologram above your generator
-        return hologram;
+    public HashMap<String, IGenHolo> getLanguageHolograms() {
+        // Return holograms associated to this generator per language ISO.
+        return holograms;
     }
 
     @Override
     public void disable() {
-        // disable your generator
-        // this will be called when the game ends, at restarting phase
+        // Disable your generator and destroy its data.
+        // This is called when the game ends, at restarting phase.
     }
 
     @Override
     public void upgrade() {
-        // this is called when the arena decides to upgrade a generator based on Arena#updateNextEvent()
-        // but if you want it to have a regular behavior you may want to
-        // register it as an arena generator arena.getOreGenerators().add(myCustomGenerator)
-        // make sure to add this in your code if the generator gets upgraded:
+        // Manage what to do when the generator upgrade is called from IArena#updateNextEvent
+        // Make sure to add this in your code if the generator gets upgraded:
         // Bukkit.getPluginManager().callEvent(new GeneratorUpgradeEvent(this));
     }
 
     @Override
-    public void spawnTry() {
+    public void spawn() {
         // This will attempt to spawn the items every second.
-        // Things to keep in consideration: #getSpawnDelay, #getSpawnAtOnce
         // Handle your logistics and spawn behavior and then you should spawn items with #dropItem(loc)
-        // this will require the generator to be registered as a team or arena generator
-        // otherwise you need to handle it yourself.
-        // Code example: https://pastebin.com/VAsVH6MM
     }
 
     @Override
     public void dropItem(Location location) {
-        // Please keep track of getGeneratorsCfg().getBoolean(ConfigPath.GENERATOR_STACK_ITEMS)
-        // so if items mustn't stack give them a custom name like this:
-        // myItem.setCustomName("custom" + id); where id is something unique so they cant stack.
-        // When the item is picked up its item name is automatically removed
-        // if it starts with "custom".
-        // Code example: https://pastebin.com/64vKUiCr
+        // Drop the item at a given location.
+        // You can customize this location in order to drop items near a player
+        // if it's a base generator with multiple teammates.
     }
 
     @Override
-    public void setSpawnOre(ItemStack spawnOre) {
-        // set generator drop item
+    public void setOre(ItemStack ore) {
+        // Change the item that this generator will spawn.
     }
 
     @Override
     public IArena getArena() {
-        // get the arena where the generator is placed
+        // Get the arena assigned to this generator.
         return arena;
     }
 
     @Override
     public void rotate() {
-        // rotate the generator preview-item if it is the case
-        // this will require the generator to be registered as a team or arena generator
-        // otherwise you need to handle it yourself
+        // This method is called every tick to manage the block rotation.
     }
 
     @Override
-    public void setSpawnDelay(int spawnDelay) {
-        // change spawn delay between drops
+    public void setDelay(int delay) {
+        // Change item spawn delay in seconds.
     }
 
     @Override
-    public void setSpawnAtOnce(int spawnAtOnce) {
-        // set the amount of items that are spawned at once
+    public void setAmount(int amount) {
+        // Set how many items should the generator spawn at once.
+    }
+
+    @Override
+    public Location getLocation() {
+        // Get the generator location.
+        return location;
+    }
+
+    @Override
+    public ItemStack getOre() {
+        // Get generator ore item stack.
+        return ore;
+    }
+
+    @Override
+    public void updateHolograms(Player p, String iso) {
+        // This will hide generator holograms with a different ISO.
     }
 
     @Override
     public void enableRotation() {
-        // this is called by BedWars1058 when the game starts. it requires to be a registered generator.
+        // Enable generator rotation.
+        // DIAMOND and EMERALD generator types will get the rotation activated when the arena starts.
     }
 
     @Override
     public void setSpawnLimit(int value) {
-        // set how many items can be dropped at the generator till pausing the drop of new ones
+        // Set the limit when the generator will stop spawning new items until they are collected.
     }
 
     @Override
-    public ITeam getOwnerTeam() {
-        // get the owning team, if it is a team generator.
-        // can be null if it does not belong to a team.
+    public ITeam getBwt() {
+        // Get the team assigned to this generator.
+        // Returns null if this is not a team generator.
         return team;
     }
 
     @Override
     public ArmorStand getHologramHolder() {
-        return null;
+        // Get generator hologram holder (armor stand) containing the rotating item.
+        return armorStand;
+    }
+
+    @Override
+    public GeneratorType getType() {
+        // Get generator type.
+        return type;
+    }
+
+    @Override
+    public int getAmount() {
+        // Get the amount of items that are dropped once.
+        return amount;
+    }
+
+    @Override
+    public int getDelay() {
+        // Get spawn rate delay.
+        return delay;
+    }
+
+    @Override
+    public int getNextSpawn() {
+        // Get seconds before next item spawn.
+        return lastSpawn;
+    }
+
+    @Override
+    public int getSpawnLimit() {
+        // Get the spawn limit of the generator.
+        return spawnLimit;
     }
 
     @Override
     public void setNextSpawn(int nextSpawn) {
-        // set how many seconds till the next #dropItems
+        // Set the remaining time till the next item spawn.
     }
 
     @Override
-    public void setStackDroppedItems(boolean stackDroppedItems) {
-        // change the item-stacking rule
+    public void setStack(boolean stack) {
+        // Set whether the dropped items should be stacked.
+    }
+
+    @Override
+    public boolean isStack() {
+        // Check if the dropped items can be stacked.
+        return stack;
     }
 
     @Override
     public void setType(GeneratorType type) {
-        // change generator type
+        // Set generator type.
     }
 
     @Override
     public void destroyData() {
-        // used to destroy any eventual generator data when the arena restarts
-    }
-
-    @Override
-    public void setTier(int tier) {
-        // change generator tier
+        // Manage your data destroy.
+        // This only must be called by the arena instance when it restarts.
     }
 }
 ```
 
 ### How to register it
 
-If you set its type as EMERALD/ DIAMOND and with no team, and you want it to be handled like a regular emerald/ diamond generator you have to add it to this list: `IArena#getOreGenerators()`. Or if you want it to be used as a team generator and refreshed (#spawnTry) by BedWars1058 add it to this list: `ITeam#getGenerators()`. For anything else, handle it yourself.
+If you set its type as `EMERALD` or `DIAMOND` and with no team, and you want it to be handled like a regular emerald/diamond generator, you must add it to this list: `IArena#getOreGenerators()`. 
+
+If you want it to be used as a team generator and refreshed (`#spawn`) by BedWars1058, add it to this list: `ITeam#getGenerators()`. 
+
+For anything else, you will need to handle it yourself.

@@ -41,11 +41,12 @@ All placeholders that are listed under [Global Placeholders](language-configurat
 
 ### Scoreboard placeholders
 
-#### Team placeholers:
-Using team placeholders is easy. Let's suppose that you have a team called `Bread`, then your team's placeholders are:
-- `{TeamBreadColor}` - shows the team color.
-- `{TeamBreadName}` - shows the team name.
-- `{TeamBreadStatus}` - shows the team status. (alive, dead etc.)
+#### Team placeholders:
+Using team placeholders is easy. Let's suppose that you have a team called `Red`, then your team's placeholders are:
+- `{TeamRedColor}` - shows the team color.
+- `{TeamRedName}` - shows the team name.
+- `{TeamRedLetter}` - shows the first letter of the team name.
+- `{TeamRedStatus}` - shows the team status (Alive, Bed Destroyed, Eliminated).
 
 An easier alternative is using `{team}` placeholder which will take the team format from the message at path: `format-sb-team-generic` (by default {TeamColor}{TeamLetter}&f {TeamName}: {TeamStatus}). This placeholder can be used in multiple lines and it will iterate the team list of the arena and will asign it a team. When the placeholder is used more than team list size the scoreboard line with {team} in it will be skipped.
 
@@ -60,39 +61,49 @@ When adding a tier to `upgrades2.yml` you should add another line in each of the
 
 ##### Global placeholders:
 - `{date}` - shows the date with the player's date format taken from his language file.
-- `{level}` - shows the player level. Does not auto-refresh.
-- `{levelUnformatted}` - shows the plain player level without formatting. Does not auto-refresh.
-- `{currentXp}` - shows the player's current xp. Does not auto-refresh.
-- `{requiredXp}` - shows the required xp to rankup. Does not auto-refresh.
-- `{progress}` - shows the progress bar. Does not auto-refresh.
-- `{losses}` - shows the player's losses. Does not auto-refresh.
-- `{kills}` - shows the player's total kills (when not used in game). Does not auto-refresh.
-- `{player}` - shows the player name.
-- `{deaths}` - shows the player's total deaths (when not used in game). Does not auto-refresh.
-- `{money}` - shows the player's money (Vault).
-- `{finalKills}` - show player's total final kills (when not used in game). Does not auto-refresh.
-- `{finalDeaths}` - show player's total final deaths (when not used in game). Does not auto-refresh.
-- `{bedsDestroyed}` - show total beds destroyed by player (when not used in game). Does not auto-refresh.
+- `{level}` - shows the player level.
+- `{levelUnformatted}` - shows the plain player level without formatting.
+- `{currentXp}` - shows the player's current xp (formatted).
+- `{requiredXp}` - shows the required xp to rankup (formatted).
+- `{progress}` - shows the progress bar.
+- `{losses}` - shows the player's total losses.
+- `{kills}` - shows the player's total kills (regular).
+- `{finalKills}` - show player's total final kills.
+- `{deaths}` - shows the player's total deaths.
+- `{finalDeaths}` - show player's total final deaths.
+- `{beds}` - show total beds destroyed by player (when not used in game).
+- `{bedsDestroyed}` - show total beds destroyed by player (alias for `{beds}`).
 - `{wins}` - show the number of games won by player.
-- `{on}` - show the number of players on the server (when not used in game).
+- `{gamesPlayed}` - show total games played by player.
+- `{player}` - shows the player display name.
+- `{playerName}` - shows the player custom name (if set).
+- `{money}` - shows the player's money (Vault).
+- `{on}` - show the total number of players online on the server.
 - `{serverIp}` - shows the server IP taken from config.yml.
 - `{server}` - shows the server ID taken from config.yml.
 - `{version}` - shows the plugin version.
+- `{poweredBy}` - shows the "powered by" text from config.yml.
+- `{prefix}` - shows the plugin prefix.
 
 ##### In Game placeholders:
-- `{deaths}` - shows the player's deaths in current game (when used in game).
-- `{kills}` - shows the player's kills in current game (when used in game).
-- `{finalKills}` - show player's final kills in current game (when used in game).
-- `{beds}` - show beds destroyed by player in current game (when used in game).
-- `{on}` - show the number of players in current game (when used in game).
-- `{map}` - shows the map name of the current arena.
-- `{max}` - shows the slots of the current arena.
-- `{time}` - shows the time remaining before the arena starts.
-- `{nextEvent}` - shows the Next Event of the game (Generator upgrades, Beds destroy etc.).
-- `{time}` - shows the time when the Next Event will happen.
-- `{group}` - shows the arena group in the waiting lobby.
-- `{map_name}` - the map you're playing on (for arena display name use {map}).
-- `{team} and {teamColor}` - shows the player team and its corresponding colors on the teleporter.
+- `{deaths}` - shows the player's deaths in current game.
+- `{kills}` - shows the player's kills in current game.
+- `{finalKills}` - show player's final kills in current game.
+- `{beds}` - show beds destroyed by player in current game.
+- `{on}` - show the number of players in current game.
+- `{max}` - shows the maximum slots of the current arena.
+- `{map}` - shows the display name of the current arena.
+- `{map_name}` - shows the technical name (folder name) of the current arena.
+- `{group}` - shows the arena group name.
+- `{time}` - shows the time remaining before the arena starts, or the next event timer during gameplay.
+- `{nextEvent}` - shows the name of the next game event (e.g., Bed Destruction, Sudden Death).
+- `{spectatorTarget}` - shows information about the player being spectated (for spectators).
+- `{teamStatus}` - shows the status of the player's own team (Alive, Bed Destroyed, Eliminated).
+- `{winnerTeamName}` - shows the name of the winning team at game end.
+- `{winnerTeamLetter}` - shows the first letter of the winning team name.
+- `{winnerTeamColor}` - shows the color of the winning team.
+- `{team}` - generic team placeholder for scoreboards.
+- `{teamColor}` - shows the player team color on the teleporter.
 
 ##### Kill/Bed-Destroy Message placeholders:
 - `{PlayerColor}` - shows the player's team color.
