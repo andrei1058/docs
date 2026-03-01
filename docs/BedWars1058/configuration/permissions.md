@@ -26,6 +26,7 @@ sidebar_position: 3.1
 | /bw leave                |                                Leave an arena or the BedWars server .                                |             - |
 | /bw cmds                 |                                       View the commands list .                                       |             - |
 | /bw start                |                            Forcestart an arena based on some conditions.                             | bw.forcestart |
+| /bw forceStart           |                            Forcestart an arena based on some conditions.                             | bw.forcestart |
 | /bw start debug          |                         Forcestart an arena. Can start with a single player.                         |   requires OP |
 | /bw stats                |                                       View your BedWars stats.                                       |             - |
 | /bw teleporter           |                           Opens the teleporter gui if you are a spectator.                           |             - |
@@ -51,6 +52,7 @@ sidebar_position: 3.1
 | /bw removeTeam           |                                     Remove a team from an arena.                                     |      bw.setup |
 | /bw setBed               |                                        Set a bed for a team.                                         |      bw.setup |
 | /bw setMaxInTeam         |                                          Set the team size.                                          |      bw.setup |
+| /bw setMaxBuildHeight    |                                  Set the max build height for an arena.                                      |      bw.setup |
 | /bw setShop              |                                  Set the shop location for a team.                                   |      bw.setup |
 | /bw setType              |                      Set the arena type. Available in Assisted setup. Optional.                      |      bw.setup |
 | /bw setUpgrade           |                                 Set the upgrade location for a team.                                 |      bw.setup |

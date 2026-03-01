@@ -119,7 +119,7 @@ bungee-settings:
   # This is the lobby server ip + BedWarsProxy Plugin's port if you are using
   # it in your lobby server. The port it's not the server's port. It is the
   # port located in plugins/BedWarsProxy/config.yml
-  lobby-servers:
+  lobby-sockets:
   - 0.0.0.0:2019
   
   # Waiting time in milliseconds for a player to be moved from BedWarsProxy to a
