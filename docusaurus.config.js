@@ -68,6 +68,11 @@ const config = {
             position: 'left',
           },
           {
+            to: '/docs/SkyGiants1058/',
+            position: 'left',
+            label: 'SkyGiants1058',
+          },
+          {
             type: 'doc',
             docId: 'BedWars1058/home',
             position: 'left',
@@ -98,6 +103,10 @@ const config = {
           {
             title: 'Docs',
             items: [
+              {
+                label: 'SkyGiants1058',
+                to: '/docs/SkyGiants1058/',
+              },
               {
                 label: 'BedWars1058',
                 to: '/docs/BedWars1058',

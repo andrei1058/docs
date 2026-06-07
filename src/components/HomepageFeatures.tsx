@@ -12,6 +12,16 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
     {
+        title: 'SkyGiants1058',
+        image: '/img/plugins/skygiants/logo_square.png',
+        link: '/docs/SkyGiants1058/',
+        description: (
+            <>
+                An advanced Minecraft minigame featuring Giants, context-aware setup tools, and dynamic localization.
+            </>
+        ),
+    },
+    {
         title: 'BedWars1058',
         image: '/img/plugins/bedwars/logo_square.png',
         link: '/docs/BedWars1058/',
@@ -32,12 +42,23 @@ const FeatureList: FeatureItem[] = [
                 Plug-in for large servers.
             </>
         ),
+    },
+    {
+        title: 'SteveSus',
+        image: '/img/plugins/stevesus/logo_square.png',
+        link: '/docs/SteveSus/',
+        description: (
+            <>
+                A Minecraft mini-game inspired by the famous "impostor" game. It features tasks, sabotages, and
+                support for multiple languages and game modes.
+            </>
+        ),
     }
 ];
 
 function Feature({title, image, description, link}: FeatureItem) {
     return (
-        <div className={clsx('col col--4')}>
+        <div className={clsx('col col--3')}>
             <Link to={link}>
                 <div className="text--center">
                     <img className={styles.featureSvg} alt={title} src={image}/>
