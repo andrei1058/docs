@@ -48,7 +48,7 @@ Using team placeholders is easy. Let's suppose that you have a team called `Red`
 - `{TeamRedLetter}` - shows the first letter of the team name.
 - `{TeamRedStatus}` - shows the team status (Alive, Bed Destroyed, Eliminated).
 
-An easier alternative is using `{team}` placeholder which will take the team format from the message at path: `format-sb-team-generic` (by default {TeamColor}{TeamLetter}&f {TeamName}: {TeamStatus}). This placeholder can be used in multiple lines and it will iterate the team list of the arena and will asign it a team. When the placeholder is used more than team list size the scoreboard line with {team} in it will be skipped.
+An easier alternative is using `{team}` placeholder which will take the team format from the message at path: `format-sb-team-generic` (by default `{TeamColor}{TeamLetter}&f {TeamName}: {TeamStatus}`). This placeholder can be used in multiple lines and it will iterate the team list of the arena and will asign it a team. When the placeholder is used more than team list size the scoreboard line with `{team}` in it will be skipped.
 
 ##### Upgrade placeholders:
 Upgrades are divided in tiers each upgrade will have a corresponding line containing the cost and currency and the tier color, this makes the tier show up as purchased or not. 

@@ -1,8 +1,9 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const {themes} = require('prism-react-renderer');
+const lightCodeTheme = themes.github;
+const darkCodeTheme = themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -11,7 +12,17 @@ const config = {
   url: 'https://wiki.andrei1058.com',
   baseUrl: '/',
   onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
+  markdown: {
+    format: 'mdx',
+    mdx1Compat: {
+      comments: true,
+      admonitions: true,
+      headingIds: true,
+    },
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
   favicon: 'uploads/logo.png',
   organizationName: 'andrei1058.com', // Usually your GitHub org/username.
   projectName: 'docs', // Usually your repo name.
@@ -57,6 +68,11 @@ const config = {
             position: 'left',
           },
           {
+            to: '/docs/SkyGiants1058/',
+            position: 'left',
+            label: 'SkyGiants1058',
+          },
+          {
             type: 'doc',
             docId: 'BedWars1058/home',
             position: 'left',
@@ -87,6 +103,10 @@ const config = {
           {
             title: 'Docs',
             items: [
+              {
+                label: 'SkyGiants1058',
+                to: '/docs/SkyGiants1058/',
+              },
               {
                 label: 'BedWars1058',
                 to: '/docs/BedWars1058',
